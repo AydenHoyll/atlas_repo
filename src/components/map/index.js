@@ -7,7 +7,7 @@ import {
   CircleMarker,
   Popup,
 } from "react-leaflet";
-import { DATA } from "../../pages/home/data";
+import { DATA } from "../../pages/map/data";
 import { CLASIFICATION_COLORS } from "./utils";
 
 const UIMap = ({

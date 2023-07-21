@@ -3,11 +3,11 @@ import { SideMenu } from "./components/sideMenu";
 import { Route, Routes } from "react-router-dom";
 import { ROUTES } from "./routes";
 
-const { Header, Content } = Layout;
+const { Header, Content, Footer } = Layout;
 
 const App = () => {
   return (
-    <Layout className="layout">
+    <Layout style={{ minHeight: "100vh" }}>
       <Header className="text-white">
         <SideMenu />
       </Header>
@@ -18,6 +18,7 @@ const App = () => {
           ))}
         </Routes>
       </Content>
+      <Footer></Footer>
     </Layout>
   );
 };

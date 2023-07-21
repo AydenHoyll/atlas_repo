@@ -6,7 +6,7 @@ import { CompassOutlined } from "@ant-design/icons";
 import { Tooltip } from "antd";
 import { Link } from "react-router-dom";
 
-export const HomePage = () => {
+export const MapPage = () => {
   const refMap = useRef();
   const popupRef = useRef([]);
 
@@ -25,7 +25,7 @@ export const HomePage = () => {
           popupRef?.current?.[name].openPopup();
         }
       },
-      isAnimationEnabled ? 2500 : 1000
+      isAnimationEnabled ? 2000 : 1000
     );
   };
 

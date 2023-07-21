@@ -1,4 +1,9 @@
-import {BuildOutlined, DesktopOutlined, FontColorsOutlined, HomeOutlined} from "@ant-design/icons";
+import {
+  BuildOutlined,
+  DesktopOutlined,
+  FontColorsOutlined,
+  HomeOutlined,
+} from "@ant-design/icons";
 import React from "react";
 import { Link } from "react-router-dom";
 
@@ -8,12 +13,12 @@ export const NAVIGATION_ITEMS = [
     label: <Link to="/">Home</Link>,
   },
   {
-    icon: <BuildOutlined/>,
-    label: <Link to="/">Map</Link>,
+    icon: <BuildOutlined />,
+    label: <Link to="/map">Map</Link>,
   },
   {
-    icon: <FontColorsOutlined/>,
-    label:<Link to="/">Lexicon</Link>
+    icon: <FontColorsOutlined />,
+    label: <Link to="/">Lexicon</Link>,
   },
   {
     icon: <DesktopOutlined />,
