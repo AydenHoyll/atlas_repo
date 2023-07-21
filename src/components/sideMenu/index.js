@@ -19,7 +19,10 @@ export const SideMenu = () => {
           className="text-xl cursor-pointer transition-opacity opacity-60 hover:opacity-100"
           onClick={() => setIsMenuDrawerOpen(true)}
         />
-        <Typography.Text className="text-white text-base ml-8 pt-1">
+        <Typography.Text
+          className="text-white text-base ml-8 pt-1 cursor-pointer select-none"
+          onClick={() => setIsMenuDrawerOpen(true)}
+        >
           Atlas dev
         </Typography.Text>
       </div>

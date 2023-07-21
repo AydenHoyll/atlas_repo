@@ -21742,7 +21742,7 @@ const LEXICON = [
       congacy: "?",
     },
     village: {
-      word: "láʔ / láʔsí ('home') [n̄tɛʔ = 'village'] (B/10)",
+      word: "láʔ / láʔsí ('map') [n̄tɛʔ = 'village'] (B/10)",
       congacy: 10,
     },
     walk: {

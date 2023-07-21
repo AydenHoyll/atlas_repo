@@ -19,6 +19,9 @@ code {
 :where(.css-dev-only-do-not-override-12jzuas).ant-layout-header {
   padding: 30px !important;
 }
+:where(.css-dev-only-do-not-override-12jzuas).ant-layout-footer {
+  background: rgb(0, 21, 41);
+}
 .leaflet-container {
 
   width: 100%;
@@ -29,6 +32,6 @@ code {
 .leaflet-bottom {
 display: none;
 }
-#root{
-
+.ant-layout-content{
+  overflow-y: auto;
 }

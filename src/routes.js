@@ -1,20 +1,26 @@
-import { HomePage } from "./pages/home";
+import { MapPage } from "./pages/map";
 
 import LanguagePage from "./pages/language";
 
+import HomePage from "./pages/homeP";
+
 export const ROUTES = [
   {
-    path: "/",
+    path: "/map",
     exact: true,
-    element: <HomePage />,
+    element: <MapPage />,
   },
   {
     path: "/extra",
-    element: <HomePage />,
+    element: <MapPage />,
   },
   {
     path: "/language/:name",
     element: <LanguagePage />,
+  },
+  {
+    path: "/",
+    element: <HomePage />,
   },
   {
     path: "*",
