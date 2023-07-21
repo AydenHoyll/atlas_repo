@@ -7,7 +7,7 @@ const HomePage = () => {
     <>
       <Space direction="vertical" className="flex items-center">
         <Typography.Title level={2} className="text-slate-900">
-          CAMOID interactive atlas
+          CAMOID Interactive Atlas
         </Typography.Title>
         <Typography.Paragraph className=" lg:max-w-5xl md:max-3xl  md:text-xl text-slate-800 text-justify">
           Welcome to the CAMOID website! This database focuses on the study of
@@ -36,10 +36,7 @@ const HomePage = () => {
         </Typography.Paragraph>
         <Typography.Title level={3}>People</Typography.Title>
         <div className="inline-flex gap-5 lg:max-w-5xl m-auto md:max-3xl sm:flex-wrap lg:flex-nowrap justify-center">
-          <Cards
-            social="www.google.com"
-            avatar="https://plus.unsplash.com/premium_photo-1689607810255-ff7cb8730382?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=687&q=80"
-          ></Cards>
+          <Cards></Cards>
           <Cards></Cards>
           <Cards></Cards>
           <Cards></Cards>
