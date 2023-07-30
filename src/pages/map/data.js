@@ -64,14 +64,7 @@ export const COLUMNS = [
     width: "10%",
   },
 ];
-//  ~400 words w color coding on 1 page (virtualization or lazy loading);
 
-// table
-// columns
-// language DATA.Name
-//  word WORDDATA.Name => render func (lang, word, entries)
-// gloss
-// cognacy
 export const DATA = [
   {
     Name: "Ejagham",

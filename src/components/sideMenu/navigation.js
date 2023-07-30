@@ -18,7 +18,7 @@ export const NAVIGATION_ITEMS = [
   },
   {
     icon: <FontColorsOutlined />,
-    label: <Link to="/">Lexicon</Link>,
+    label: <Link to="/lexicon">Lexicon</Link>,
   },
   {
     icon: <DesktopOutlined />,

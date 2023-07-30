@@ -1,4 +1,4 @@
-const LEXICON = [
+export const LEXICON = [
   {
     "Names languages": "Ejagham",
     Classification: "Ekoid",

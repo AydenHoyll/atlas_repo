@@ -1,8 +1,7 @@
 import { MapPage } from "./pages/map";
-
 import LanguagePage from "./pages/language";
-
 import HomePage from "./pages/homeP";
+import Lexicon from "./pages/lexicon";
 
 export const ROUTES = [
   {
@@ -11,8 +10,8 @@ export const ROUTES = [
     element: <MapPage />,
   },
   {
-    path: "/extra",
-    element: <MapPage />,
+    path: "/lexicon",
+    element: <Lexicon />,
   },
   {
     path: "/language/:name",

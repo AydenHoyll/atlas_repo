@@ -2,7 +2,6 @@ import React from "react";
 import { useLocation, useParams } from "react-router-dom";
 import { Collapse, Typography } from "antd";
 import { DATA } from "../map/data";
-import UIMap from "../../components/map";
 import { CircleMarker, MapContainer, TileLayer, useMap } from "react-leaflet";
 import { CLASIFICATION_COLORS } from "../../components/map/utils";
 
