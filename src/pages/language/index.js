@@ -1,8 +1,8 @@
 import React from "react";
 import { useLocation, useParams } from "react-router-dom";
-import { Collapse, Typography } from "antd";
+import { Typography } from "antd";
 import { DATA } from "../map/data";
-import { CircleMarker, MapContainer, TileLayer, useMap } from "react-leaflet";
+import { CircleMarker, MapContainer, TileLayer } from "react-leaflet";
 import { CLASIFICATION_COLORS } from "../../components/map/utils";
 
 const getObject = (state, name) => {

@@ -20,7 +20,7 @@ export const SideMenu = () => {
           onClick={() => setIsMenuDrawerOpen(true)}
         />
         <Typography.Text
-          className="text-white text-base ml-8 pt-1 cursor-pointer select-none"
+          className="text-white font-bold text-base ml-8 pt-1 cursor-pointer select-none"
           onClick={() => setIsMenuDrawerOpen(true)}
         >
           Atlas dev
