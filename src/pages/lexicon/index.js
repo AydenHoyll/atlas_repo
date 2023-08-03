@@ -1,9 +1,9 @@
-import React, { useState } from "react";
+import React, { useMemo, useState } from "react";
 import { getCurrentWords, LEX_COL } from "./COLUMNS";
 import { LEXICON } from "./LEXICON";
 import { Table } from "antd";
 
-const Lexicon = () => {
+const Lexicon = (factory, deps) => {
   const [currentLetter, setCurrentLetter] = useState("a");
 
   const alphabet = Array.from({ length: 23 }, (_, index) =>
@@ -11,13 +11,17 @@ const Lexicon = () => {
   ).filter((char) => char !== "j" && char !== "q");
 
   const currentKeys = getCurrentWords(currentLetter);
-  const data = LEXICON.map((obj, ix) =>
-    currentKeys.reduce((acc, el) => {
-      acc[el] = obj[el];
-      acc["Names languages"] = obj["Names languages"];
-      acc.key = ix;
-      return acc;
-    }, {})
+  const data = useMemo(
+    () =>
+      LEXICON.map((obj, ix) =>
+        currentKeys.reduce((acc, el) => {
+          acc[el] = obj[el];
+          acc["Names languages"] = obj["Names languages"];
+          acc.key = ix;
+          return acc;
+        }, {})
+      ),
+    [currentKeys]
   );
 
   return (
@@ -51,4 +55,4 @@ const Lexicon = () => {
   );
 };
 
-export default Lexicon;
+export default React.memo(Lexicon);
