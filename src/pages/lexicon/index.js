@@ -40,7 +40,6 @@ const Lexicon = (factory, deps) => {
       <Table
         dataSource={data}
         columns={LEX_COL(currentLetter)}
-        // idk if fixed header neaded...???
         scroll={{ y: "90vh" }}
         pagination={{
           position: ["bottomCenter"],

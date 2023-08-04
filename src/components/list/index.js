@@ -21,7 +21,7 @@ const ListComponent = ({ data, name, passData }) => {
         .join(" "),
     [items]
   );
-
+  // 123
   useEffect(() => {
     passData({ [name]: checkedValues });
   }, [checkedValues]);
