@@ -13,7 +13,7 @@ const NewFeature = () => {
   );
 
   const langData = useMemo(() => LEXICON.map((el) => Object.values(el)[0]), []);
-
+  // data from children (selected words and langs)
   const passData = useCallback((newData) => {
     setData((prevData) => ({
       ...prevData,
@@ -52,13 +52,16 @@ const NewFeature = () => {
   return (
     <>
       <button className="align-middle" onClick={() => setIsClicked(!isClicked)}>
-        Generate TABLE
+        {!isClicked ? "Generate Table" : "Back"}
       </button>
-      <div className="flex flex-row">
-        <ListComponent data={wordData} name="words" passData={passData} />
-        <ListComponent data={langData} name="languages" passData={passData} />
-      </div>
-      {isClicked && <Table dataSource={customData()} columns={customCols()} />}
+      {!isClicked ? (
+        <div className="flex flex-row">
+          <ListComponent data={wordData} name="words" passData={passData} />
+          <ListComponent data={langData} name="languages" passData={passData} />
+        </div>
+      ) : (
+        <Table dataSource={customData()} columns={customCols()} />
+      )}
     </>
   );
 };

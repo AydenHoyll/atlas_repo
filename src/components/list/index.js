@@ -20,7 +20,7 @@ const ListComponent = ({ data, name, passData }) => {
   // 123
   useEffect(() => {
     passData({ [name]: checkedValues });
-  }, [checkedValues]);
+  }, [checkedValues, passData, name]);
 
   const handleCheckboxChange = (itemKey) => {
     setItems((prevItems) =>
@@ -53,7 +53,7 @@ const ListComponent = ({ data, name, passData }) => {
       <div>
         Checked {name}: {checkedValues.join(" ")}
       </div>
-      <ul>
+      <ul style={{ columnCount: 2 }}>
         {filteredData.map((item) => (
           <li className="" key={item.key}>
             <Checkbox
@@ -69,4 +69,4 @@ const ListComponent = ({ data, name, passData }) => {
   );
 };
 
-export default ListComponent;
+export default React.memo(ListComponent);
