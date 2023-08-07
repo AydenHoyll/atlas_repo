@@ -14,11 +14,7 @@ const ListComponent = ({ data, name, passData }) => {
   );
 
   const checkedValues = useMemo(
-    () =>
-      items
-        .filter((item) => item.checked)
-        .map((item) => item.key)
-        .join(" "),
+    () => items.filter((item) => item.checked).map((item) => item.key),
     [items]
   );
   // 123
@@ -55,7 +51,7 @@ const ListComponent = ({ data, name, passData }) => {
       />
       <button onClick={handleClear}>Clear All</button>
       <div>
-        Checked {name}: {checkedValues}
+        Checked {name}: {checkedValues.join(" ")}
       </div>
       <ul>
         {filteredData.map((item) => (

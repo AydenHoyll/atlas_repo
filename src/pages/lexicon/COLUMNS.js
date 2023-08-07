@@ -13,7 +13,11 @@ export const LEX_COL = (currentLetter) => {
   const words = getCurrentWords(currentLetter).map((word) => ({
     title: word,
     dataIndex: word,
-    render: (text) => <div>{text.word}</div>,
+    render: (text) => (
+      <div>
+        {text.word} - {text.congacy}
+      </div>
+    ),
   }));
   words.unshift({
     title: "Name",

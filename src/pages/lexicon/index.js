@@ -1,14 +1,30 @@
 import React, { useMemo, useState } from "react";
 import { getCurrentWords, LEX_COL } from "./COLUMNS";
 import { LEXICON } from "./LEXICON";
-import { Table } from "antd";
+import { Checkbox, Table } from "antd";
 
-const Lexicon = (factory, deps) => {
+const options = [
+  {
+    label: "Color-code",
+    value: "color",
+  },
+  {
+    label: "Number-code",
+    value: "number",
+  },
+];
+
+const Lexicon = () => {
   const [currentLetter, setCurrentLetter] = useState("a");
+  const [showActiveCognacy, setShowActiveCognacy] = useState([]);
 
   const alphabet = Array.from({ length: 23 }, (_, index) =>
     String.fromCharCode(97 + index)
   ).filter((char) => char !== "j" && char !== "q");
+
+  const onChange = (checkedValues) => {
+    setShowActiveCognacy(checkedValues);
+  };
 
   const currentKeys = getCurrentWords(currentLetter);
   const data = useMemo(
@@ -23,7 +39,7 @@ const Lexicon = (factory, deps) => {
       ),
     [currentKeys]
   );
-
+  console.log("checkedsss", showActiveCognacy);
   return (
     <>
       <div className="inline-flex flex-wrap gap-5">
@@ -35,6 +51,7 @@ const Lexicon = (factory, deps) => {
             {letter}
           </button>
         ))}
+        <Checkbox.Group options={options} onChange={onChange} />
       </div>
 
       <Table
