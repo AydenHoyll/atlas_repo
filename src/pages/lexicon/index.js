@@ -1,7 +1,8 @@
 import React, { useMemo, useState } from "react";
-import { getCurrentWords, LEX_COL } from "./COLUMNS";
+import { LEX_COL } from "./COLUMNS";
 import { LEXICON } from "./LEXICON";
 import { Checkbox, Table } from "antd";
+import { alphabet } from "./utils";
 
 const options = [
   {
@@ -17,23 +18,25 @@ const options = [
 const Lexicon = () => {
   const [currentLetter, setCurrentLetter] = useState("a");
 
-  const alphabet = Array.from({ length: 23 }, (_, index) =>
-    String.fromCharCode(97 + index)
-  ).filter((char) => char !== "j" && char !== "q");
+  const columnWords = useMemo(() => {
+    const x = {};
 
-  const currentKeys = getCurrentWords(currentLetter);
-  const data = useMemo(
-    () =>
-      LEXICON.map((obj, ix) =>
-        currentKeys.reduce((acc, el) => {
-          acc[el] = obj[el];
-          acc["Names languages"] = obj["Names languages"];
-          acc.key = ix;
-          return acc;
-        }, {})
-      ),
-    [currentKeys]
+    Object.entries(LEXICON[0]).forEach(([key, value], index) => {
+      const firstLetter = key[0];
+
+      if (alphabet.includes(firstLetter)) {
+        x[firstLetter] = [...(x[firstLetter] || []), key];
+      }
+    });
+
+    return x;
+  }, []);
+
+  const currentKeys = useMemo(
+    () => columnWords[currentLetter],
+    [currentLetter]
   );
+
   return (
     <>
       <div className="inline-flex flex-wrap gap-5">
@@ -49,13 +52,13 @@ const Lexicon = () => {
       </div>
 
       <Table
-        dataSource={data}
-        columns={LEX_COL(currentLetter)}
+        dataSource={LEXICON}
+        columns={LEX_COL(currentKeys)}
         scroll={{ y: "100vh", x: "max-content" }}
         pagination={{
           position: ["bottomCenter"],
-          defaultPageSize: 100,
-          pageSize: 100,
+          defaultPageSize: 20,
+          pageSize: 20,
           hideOnSinglePage: true,
           responsive: true,
           showSizeChanger: false,

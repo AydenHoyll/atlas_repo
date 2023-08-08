@@ -17,7 +17,7 @@ const ListComponent = ({ data, name, passData }) => {
     () => items.filter((item) => item.checked).map((item) => item.key),
     [items]
   );
-  // 123
+
   useEffect(() => {
     passData({ [name]: checkedValues });
   }, [checkedValues, passData, name]);
@@ -39,6 +39,15 @@ const ListComponent = ({ data, name, passData }) => {
     );
   };
 
+  const handleAll = () => {
+    setItems((prevItems) =>
+      prevItems.map((item) => ({
+        ...item,
+        checked: true,
+      }))
+    );
+  };
+
   return (
     <div className="w-1/2 mr-2 flex flex-col m-0">
       <Input
@@ -50,6 +59,7 @@ const ListComponent = ({ data, name, passData }) => {
         onChange={(event) => setInput(event.target.value)}
       />
       <button onClick={handleClear}>Clear All</button>
+      <button onClick={handleAll}>Select all</button>
       <div>
         Checked {name}: {checkedValues.join(" ")}
       </div>

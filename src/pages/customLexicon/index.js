@@ -4,7 +4,7 @@ import ListComponent from "../../components/list";
 import { Button, Table } from "antd";
 
 const NewFeature = () => {
-  const [data, setData] = useState();
+  const [data, setData] = useState({});
   const [isClicked, setIsClicked] = useState(false);
 
   const wordData = useMemo(
@@ -12,7 +12,10 @@ const NewFeature = () => {
     []
   );
 
-  const langData = useMemo(() => LEXICON.map((el) => Object.values(el)[0]), []);
+  const langData = useMemo(
+    () => LEXICON.map((el) => el["Names languages"]),
+    []
+  );
   // data from children (selected words and langs)
   const passData = useCallback((newData) => {
     setData((prevData) => ({
@@ -35,19 +38,19 @@ const NewFeature = () => {
         dataIndex: word,
         render: (text) => (
           <div>
-            {text.word} - {text.congacy}
+            {text.word} - {text.cognacy}
           </div>
         ),
       }));
       words.unshift({
         title: "Name",
         dataIndex: "Names languages",
-        width: "10%",
+        fixed: "left",
       });
       return words;
     }
-    throw new Error("you have to select words");
   };
+
   return (
     <>
       <Button className="mb-2" onClick={() => setIsClicked(!isClicked)}>
@@ -62,7 +65,7 @@ const NewFeature = () => {
         <Table
           dataSource={customData()}
           columns={customCols()}
-          scroll={{ x: 1500, y: 300 }}
+          scroll={{ x: "max-content", y: "100vh" }}
         />
       )}
     </>
