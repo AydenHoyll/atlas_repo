@@ -40,6 +40,7 @@ const UITable = ({ title = "Table", columns, data, searchByKey = "name" }) => {
         }}
         columns={columns}
         dataSource={currentData}
+        scroll={{ x: "max-content" }}
       />
     </>
   );

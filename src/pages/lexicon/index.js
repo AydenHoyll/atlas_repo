@@ -16,15 +16,10 @@ const options = [
 
 const Lexicon = () => {
   const [currentLetter, setCurrentLetter] = useState("a");
-  const [showActiveCognacy, setShowActiveCognacy] = useState([]);
 
   const alphabet = Array.from({ length: 23 }, (_, index) =>
     String.fromCharCode(97 + index)
   ).filter((char) => char !== "j" && char !== "q");
-
-  const onChange = (checkedValues) => {
-    setShowActiveCognacy(checkedValues);
-  };
 
   const currentKeys = getCurrentWords(currentLetter);
   const data = useMemo(
@@ -39,7 +34,6 @@ const Lexicon = () => {
       ),
     [currentKeys]
   );
-  console.log("checkedsss", showActiveCognacy);
   return (
     <>
       <div className="inline-flex flex-wrap gap-5">
@@ -51,13 +45,13 @@ const Lexicon = () => {
             {letter}
           </button>
         ))}
-        <Checkbox.Group options={options} onChange={onChange} />
+        <Checkbox.Group options={options} />
       </div>
 
       <Table
         dataSource={data}
         columns={LEX_COL(currentLetter)}
-        scroll={{ y: "90vh" }}
+        scroll={{ y: "100vh", x: "max-content" }}
         pagination={{
           position: ["bottomCenter"],
           defaultPageSize: 100,

@@ -22,7 +22,7 @@ export const LEX_COL = (currentLetter) => {
   words.unshift({
     title: "Name",
     dataIndex: "Names languages",
-    width: "10%",
+    fixed: "left",
   });
   return words;
 };

@@ -40,12 +40,12 @@ const ListComponent = ({ data, name, passData }) => {
   };
 
   return (
-    <div className="w-1/2 mr-2 flex flex-col">
+    <div className="w-1/2 mr-2 flex flex-col m-0">
       <Input
         allowClear
         placeHolder={`Search for ${name}`}
         size="large"
-        bordered={false}
+        bordered={true}
         value={input}
         onChange={(event) => setInput(event.target.value)}
       />

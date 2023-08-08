@@ -1,7 +1,7 @@
 import React, { useCallback, useMemo, useState } from "react";
 import { LEXICON } from "../lexicon/LEXICON";
 import ListComponent from "../../components/list";
-import { Table } from "antd";
+import { Button, Table } from "antd";
 
 const NewFeature = () => {
   const [data, setData] = useState();
@@ -48,19 +48,22 @@ const NewFeature = () => {
     }
     throw new Error("you have to select words");
   };
-  console.log("data", data);
   return (
     <>
-      <button className="align-middle" onClick={() => setIsClicked(!isClicked)}>
+      <Button className="mb-2" onClick={() => setIsClicked(!isClicked)}>
         {!isClicked ? "Generate Table" : "Back"}
-      </button>
+      </Button>
       {!isClicked ? (
         <div className="flex flex-row">
           <ListComponent data={wordData} name="words" passData={passData} />
           <ListComponent data={langData} name="languages" passData={passData} />
         </div>
       ) : (
-        <Table dataSource={customData()} columns={customCols()} />
+        <Table
+          dataSource={customData()}
+          columns={customCols()}
+          scroll={{ x: 1500, y: 300 }}
+        />
       )}
     </>
   );
