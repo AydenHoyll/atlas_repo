@@ -2,21 +2,13 @@ import React, { useMemo, useState } from "react";
 import { LEX_COL } from "./COLUMNS";
 import { LEXICON } from "./LEXICON";
 import { Checkbox, Table } from "antd";
-import { alphabet } from "./utils";
-
-const options = [
-  {
-    label: "Color-code",
-    value: "color",
-  },
-  {
-    label: "Number-code",
-    value: "number",
-  },
-];
+import { alphabet, options } from "./utils";
 
 const Lexicon = () => {
   const [currentLetter, setCurrentLetter] = useState("a");
+  const [checked, setChecked] = useState(
+    options.map((el) => ({ value: el.value, isChecked: false }))
+  );
 
   const columnWords = useMemo(() => {
     const x = {};
@@ -34,8 +26,15 @@ const Lexicon = () => {
 
   const currentKeys = useMemo(
     () => columnWords[currentLetter],
-    [currentLetter]
+    [currentLetter, columnWords]
   );
+  const onCheckBoxChange = (value) => {
+    setChecked((prevItems) =>
+      prevItems.map((el) =>
+        el.value === value ? { ...el, isChecked: !el.isChecked } : el
+      )
+    );
+  };
 
   return (
     <>
@@ -48,20 +47,34 @@ const Lexicon = () => {
             {letter}
           </button>
         ))}
-        <Checkbox.Group options={options} />
+        {checked.map((el) => (
+          <div>
+            <Checkbox
+              className="mr-2"
+              key={el.value}
+              checked={el.isChecked}
+              onClick={() => onCheckBoxChange(el.value)}
+            />
+            {el.value}
+          </div>
+        ))}
       </div>
 
       <Table
         dataSource={LEXICON}
-        columns={LEX_COL(currentKeys)}
-        scroll={{ y: "100vh", x: "max-content" }}
+        columns={LEX_COL(
+          currentKeys,
+          checked[0].isChecked,
+          checked[1].isChecked
+        )}
+        scroll={{ x: "max-content" }}
         pagination={{
           position: ["bottomCenter"],
           defaultPageSize: 20,
-          pageSize: 20,
           hideOnSinglePage: true,
           responsive: true,
-          showSizeChanger: false,
+          showSizeChanger: true,
+          fixed: "top",
         }}
       />
     </>

@@ -1,29 +1,31 @@
 import React, { useEffect, useMemo, useState } from "react";
-import { Checkbox, Input } from "antd";
+import { Button, Checkbox, Input } from "antd";
 
 const ListComponent = ({ data, name, passData }) => {
-  const [input, setInput] = useState("");
-  const [items, setItems] = useState(
+  const [searchInput, setSearchInput] = useState("");
+  const [listItems, setListItems] = useState(
     data.map((key) => ({ key, checked: false }))
   );
 
   const filteredData = useMemo(
     () =>
-      items.filter((el) => el.key.toLowerCase().includes(input.toLowerCase())),
-    [items, input]
+      listItems.filter((el) =>
+        el.key.toLowerCase().includes(searchInput.toLowerCase())
+      ),
+    [listItems, searchInput]
   );
 
-  const checkedValues = useMemo(
-    () => items.filter((item) => item.checked).map((item) => item.key),
-    [items]
+  const checkedListValues = useMemo(
+    () => listItems.filter((item) => item.checked).map((item) => item.key),
+    [listItems]
   );
 
   useEffect(() => {
-    passData({ [name]: checkedValues });
-  }, [checkedValues, passData, name]);
+    passData({ [name]: checkedListValues });
+  }, [checkedListValues, passData, name]);
 
   const handleCheckboxChange = (itemKey) => {
-    setItems((prevItems) =>
+    setListItems((prevItems) =>
       prevItems.map((el) =>
         el.key === itemKey ? { ...el, checked: !el.checked } : el
       )
@@ -31,7 +33,7 @@ const ListComponent = ({ data, name, passData }) => {
   };
 
   const handleClear = () => {
-    setItems((prevItems) =>
+    setListItems((prevItems) =>
       prevItems.map((item) => ({
         ...item,
         checked: false,
@@ -39,8 +41,8 @@ const ListComponent = ({ data, name, passData }) => {
     );
   };
 
-  const handleAll = () => {
-    setItems((prevItems) =>
+  const handleSelectAll = () => {
+    setListItems((prevItems) =>
       prevItems.map((item) => ({
         ...item,
         checked: true,
@@ -49,21 +51,31 @@ const ListComponent = ({ data, name, passData }) => {
   };
 
   return (
-    <div className="w-1/2 mr-2 flex flex-col m-0">
+    <div className="w-1/2 mr-2 flex flex-col m-0 max-h-full overflow-auto">
       <Input
         allowClear
+        style={{
+          width: "25vw",
+          minWidth: 200,
+          alignSelf: "start",
+          marginBottom: 5,
+        }}
         placeHolder={`Search for ${name}`}
-        size="large"
+        size="middle"
         bordered={true}
-        value={input}
-        onChange={(event) => setInput(event.target.value)}
+        value={searchInput}
+        onChange={(event) => setSearchInput(event.target.value)}
       />
-      <button onClick={handleClear}>Clear All</button>
-      <button onClick={handleAll}>Select all</button>
-      <div>
-        Checked {name}: {checkedValues.join(" ")}
+      <div className="self-start">
+        <Button className="mr-2" onClick={handleClear}>
+          Clear All
+        </Button>
+        <Button onClick={handleSelectAll}>Select all</Button>
       </div>
-      <ul style={{ columnCount: 2 }}>
+      <div>
+        Checked {name}: {checkedListValues.join(", ")}
+      </div>
+      <ul style={{ columnCount: 2, overflow: "auto" }}>
         {filteredData.map((item) => (
           <li className="" key={item.key}>
             <Checkbox

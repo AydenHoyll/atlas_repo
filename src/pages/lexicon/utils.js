@@ -21,3 +21,14 @@ export const alphabet = [
   "v",
   "w",
 ];
+
+export const options = [
+  {
+    label: "Color-code",
+    value: "color",
+  },
+  {
+    label: "Number-code",
+    value: "number",
+  },
+];
