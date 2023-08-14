@@ -67,14 +67,13 @@ const Lexicon = () => {
           checked[0].isChecked,
           checked[1].isChecked
         )}
-        scroll={{ x: "max-content" }}
+        scroll={{ x: "max-content", y: "90vh" }}
         pagination={{
           position: ["bottomCenter"],
           defaultPageSize: 20,
           hideOnSinglePage: true,
           responsive: true,
           showSizeChanger: true,
-          fixed: "top",
         }}
       />
     </>
