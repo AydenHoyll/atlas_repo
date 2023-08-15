@@ -51,7 +51,7 @@ const ListComponent = ({ data, name, passData }) => {
   };
 
   return (
-    <div className="w-1/2 mr-2 flex flex-col m-0 lg:text-xl md:text-sm md:min-w-fit ">
+    <div className="w-1/2 mr-2 flex flex-col m-0 lg:text-lg md:text-sm min-w-fit ">
       <Input
         allowClear
         style={{
@@ -72,7 +72,7 @@ const ListComponent = ({ data, name, passData }) => {
         </Button>
         <Button onClick={handleSelectAll}>Select all</Button>
       </div>
-      <Typography.Text strong={true} className="lg: text-xl md: text-sm">
+      <Typography.Text strong={true} className="lg:text-lg md:text-sm">
         Select {name} for custom table
       </Typography.Text>
       <div>

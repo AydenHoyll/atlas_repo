@@ -35,7 +35,7 @@ const HomePage = () => {
           May 2025.
         </Typography.Paragraph>
         <Typography.Title level={3}>People</Typography.Title>
-        <div className="inline-flex gap-5 lg:max-w-5xl m-auto md:w-fit md: flex-wrap md: flex-1 md:overflow-y-auto lg:flex-nowrap justify-center">
+        <div className="inline-flex gap-5 lg:max-w-5xl m-auto md:max-3xl sm:flex-wrap lg:flex-nowrap justify-center">
           <Cards></Cards>
           <Cards></Cards>
           <Cards></Cards>
