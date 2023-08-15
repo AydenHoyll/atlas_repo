@@ -18,7 +18,7 @@ const App = () => {
           ))}
         </Routes>
       </Content>
-      <Footer></Footer>
+      <Footer />
     </Layout>
   );
 };

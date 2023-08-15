@@ -35,7 +35,7 @@ export const options = [
 // Mapping of distinctive colors to their conventional color names
 
 export const distinctiveColors = {
-  1: "bg-[#E6194B] font-semibold", // Red
+  1: "bg-[#E6194B] font-semibold text-white", // Red
   2: "bg-[#3CB44B] text-white font-semibold", // Green
   3: "bg-[#FFC20A] font-semibold", // Yellow
   4: "bg-[#4363D8] text-white font-semibold", // Blue

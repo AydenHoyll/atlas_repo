@@ -52,7 +52,7 @@ const NewFeature = () => {
         {!isClicked ? "Generate Table" : "Back"}
       </button>
       {!isClicked ? (
-        <div className="flex flex-row">
+        <div className="flex flex-row md: overflow-y-auto">
           <ListComponent data={wordData} name="words" passData={passData} />
           <ListComponent data={langData} name="languages" passData={passData} />
         </div>
