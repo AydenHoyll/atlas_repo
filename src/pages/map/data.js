@@ -76,6 +76,7 @@ export const DATA = [
     Linkiso: "https://iso639-3.sil.org/code/etu",
     GLOTTOCODE: "ejag1239",
     linkglot: "https://glottolog.org/resource/languoid/id/ejag1239",
+    source: "Blench, Roger. Unpublished. Comparative Ekoid.",
   },
   {
     Name: "Efutop",
@@ -87,6 +88,7 @@ export const DATA = [
     Linkiso: "https://iso639-3.sil.org/code/ofu",
     GLOTTOCODE: "efut1242",
     linkglot: "https://glottolog.org/resource/languoid/id/efut1242",
+    source: "Blench, Roger. Unpublished. Comparative Ekoid.",
   },
   {
     Name: "Balep",
@@ -98,6 +100,7 @@ export const DATA = [
     Linkiso: "x",
     GLOTTOCODE: "bale1253",
     linkglot: "https://glottolog.org/resource/languoid/id/bale1253",
+    source: "Blench, Roger. Unpublished. Comparative Ekoid.",
   },
   {
     Name: "Nde",
@@ -109,6 +112,7 @@ export const DATA = [
     Linkiso: "x",
     GLOTTOCODE: "ndee1242",
     linkglot: "https://glottolog.org/resource/languoid/id/ndee1242",
+    source: "Blench, Roger. Unpublished. Comparative Ekoid.",
   },
   {
     Name: "Nselle",
@@ -120,6 +124,7 @@ export const DATA = [
     Linkiso: "x",
     GLOTTOCODE: "sel1238",
     linkglot: "https://glottolog.org/resource/languoid/id/sel1238",
+    source: "Blench, Roger. Unpublished. Comparative Ekoid.",
   },
   {
     Name: "Abanyom",
@@ -131,6 +136,7 @@ export const DATA = [
     Linkiso: "https://iso639-3.sil.org/code/abm",
     GLOTTOCODE: "aban1242",
     linkglot: "https://glottolog.org/resource/languoid/id/aban1242",
+    source: "Blench, Roger. Unpublished. Comparative Ekoid.",
   },
   {
     Name: "Nkim",
@@ -142,6 +148,7 @@ export const DATA = [
     Linkiso: "x",
     GLOTTOCODE: "nkem1243",
     linkglot: "https://glottolog.org/resource/languoid/id/nkem1243",
+    source: "Blench, Roger. Unpublished. Comparative Ekoid.",
   },
   {
     Name: "Nnam",
@@ -153,6 +160,7 @@ export const DATA = [
     Linkiso: "https://iso639-3.sil.org/code/nbp",
     GLOTTOCODE: "nnam1238",
     linkglot: "https://glottolog.org/resource/languoid/id/nnam1238",
+    source: "Blench, Roger. Unpublished. Comparative Ekoid.",
   },
   {
     Name: "Ekajuk",
@@ -164,6 +172,7 @@ export const DATA = [
     Linkiso: "https://iso639-3.sil.org/code/eka",
     GLOTTOCODE: "ekaj1238",
     linkglot: "https://glottolog.org/resource/languoid/id/ekaj1238",
+    source: "Blench, Roger. Unpublished. Comparative Ekoid.",
   },
   {
     Name: "Mbe",
@@ -175,6 +184,7 @@ export const DATA = [
     Linkiso: "https://iso639-3.sil.org/code/mfo",
     GLOTTOCODE: "mbee1249",
     linkglot: "https://glottolog.org/resource/languoid/id/mbee1249",
+    source: "Blench, Roger. Unpublished. Mbe-English wordlist.",
   },
   {
     Name: "Tikar",
@@ -186,6 +196,8 @@ export const DATA = [
     Linkiso: "https://iso639-3.sil.org/code/tik",
     GLOTTOCODE: "tika1246",
     linkglot: "https://glottolog.org/resource/languoid/id/tika1246",
+    source:
+      "Grassfields Bantu Working Group including Jean-Marie Hombert and Larry Hyman",
   },
   {
     Name: "Esimbi",
@@ -197,6 +209,8 @@ export const DATA = [
     Linkiso: "https://iso639-3.sil.org/code/ags",
     GLOTTOCODE: "esim1238",
     linkglot: "https://glottolog.org/resource/languoid/id/esim1238",
+    source:
+      "Blench, Roger. 2011. The Tivoid Languages: Classification and Comparative Wordlist. 16.",
   },
   {
     Name: "Tiv",
@@ -208,6 +222,8 @@ export const DATA = [
     Linkiso: "https://iso639-3.sil.org/code/tiv",
     GLOTTOCODE: "tivv1240",
     linkglot: "https://glottolog.org/resource/languoid/id/tivv1240",
+    source:
+      "Blench, Roger. 2011. The Tivoid Languages: Classification and Comparative Wordlist. 16.",
   },
   {
     Name: "Afi",
@@ -219,6 +235,8 @@ export const DATA = [
     Linkiso: "x",
     GLOTTOCODE: "aman1261",
     linkglot: "https://glottolog.org/resource/languoid/id/aman1261",
+    source:
+      "Blench, Roger. 2011. The Tivoid Languages: Classification and Comparative Wordlist. 16.",
   },
   {
     Name: "Kamino",
@@ -230,6 +248,8 @@ export const DATA = [
     Linkiso: "x",
     GLOTTOCODE: "kami1257",
     linkglot: "https://glottolog.org/resource/languoid/id/kami1257",
+    source:
+      "Blench, Roger. 2011. The Tivoid Languages: Classification and Comparative Wordlist. 16.",
   },
   {
     Name: "Ugare",
@@ -241,6 +261,8 @@ export const DATA = [
     Linkiso: "https://iso639-3.sil.org/code/iyo",
     GLOTTOCODE: "mesa1245",
     linkglot: "https://glottolog.org/resource/languoid/id/mesa1245",
+    source:
+      "Blench, Roger. 2011. The Tivoid Languages: Classification and Comparative Wordlist. 16.",
   },
   {
     Name: "Oliti",
@@ -252,6 +274,8 @@ export const DATA = [
     Linkiso: "x",
     GLOTTOCODE: "olit1238",
     linkglot: "https://glottolog.org/resource/languoid/id/olit1238",
+    source:
+      "Blench, Roger. 2011. The Tivoid Languages: Classification and Comparative Wordlist. 16.",
   },
   {
     Name: "Evand",
@@ -263,6 +287,8 @@ export const DATA = [
     Linkiso: "https://iso639-3.sil.org/code/bzz",
     GLOTTOCODE: "evan1238",
     linkglot: "https://glottolog.org/resource/languoid/id/evan1238",
+    source:
+      "Blench, Roger. 2011. The Tivoid Languages: Classification and Comparative Wordlist. 16.",
   },
   {
     Name: "Caka-Batanga",
@@ -274,6 +300,8 @@ export const DATA = [
     Linkiso: "x",
     GLOTTOCODE: "bata1286",
     linkglot: "https://glottolog.org/resource/languoid/id/bata1286",
+    source:
+      "Blench, Roger. 2011. The Tivoid Languages: Classification and Comparative Wordlist. 16.",
   },
   {
     Name: "Ipulo",
@@ -285,6 +313,8 @@ export const DATA = [
     Linkiso: "https://iso639-3.sil.org/code/ass",
     GLOTTOCODE: "ipul1238",
     linkglot: "https://glottolog.org/resource/languoid/id/ipul1238",
+    source:
+      "Blench, Roger. 2011. The Tivoid Languages: Classification and Comparative Wordlist. 16.",
   },
   {
     Name: "Olulu",
@@ -296,6 +326,8 @@ export const DATA = [
     Linkiso: "x",
     GLOTTOCODE: "olul1247",
     linkglot: "https://glottolog.org/resource/languoid/id/olul1247",
+    source:
+      "Blench, Roger. 2011. The Tivoid Languages: Classification and Comparative Wordlist. 16.",
   },
   {
     Name: "Koshin",
@@ -307,6 +339,8 @@ export const DATA = [
     Linkiso: "https://iso639-3.sil.org/code/kid",
     GLOTTOCODE: "kosh1246",
     linkglot: "https://glottolog.org/resource/languoid/id/kosh1246",
+    source:
+      "Hamm, Cameron, Jason Diller, Kari Jordan-Diller & Ferdinand Assako a Tiati. 2001. A rapid appraisal survey of Western Beboid languages (Menchum Division, Northwest Province). SIL International 14.40.",
   },
   {
     Name: "Noni",
@@ -318,6 +352,8 @@ export const DATA = [
     Linkiso: "https://iso639-3.sil.org/code/nhu",
     GLOTTOCODE: "noon1243",
     linkglot: "https://glottolog.org/resource/languoid/id/noon1243",
+    source:
+      "Hamm, Cameron, Jason Diller, Kari Jordan-Diller & Ferdinand Assako a Tiati. 2001. A rapid appraisal survey of Western Beboid languages (Menchum Division, Northwest Province). SIL International 14.40.",
   },
   {
     Name: "Nchanti",
@@ -329,6 +365,8 @@ export const DATA = [
     Linkiso: "https://iso639-3.sil.org/code/ncr",
     GLOTTOCODE: "ncan1245",
     linkglot: "https://glottolog.org/resource/languoid/id/ncan1245",
+    source:
+      "Hamm, Cameron, Jason Diller, Kari Jordan-Diller & Ferdinand Assako a Tiati. 2001. A rapid appraisal survey of Western Beboid languages (Menchum Division, Northwest Province). SIL International 14.40.",
   },
   {
     Name: "Abar",
@@ -340,6 +378,8 @@ export const DATA = [
     Linkiso: "https://iso639-3.sil.org/code/mij",
     GLOTTOCODE: "abar1238",
     linkglot: "https://glottolog.org/resource/languoid/id/abar1238",
+    source:
+      "Hamm, Cameron, Jason Diller, Kari Jordan-Diller & Ferdinand Assako a Tiati. 2001. A rapid appraisal survey of Western Beboid languages (Menchum Division, Northwest Province). SIL International 14.40.",
   },
   {
     Name: "Missong",
@@ -351,6 +391,8 @@ export const DATA = [
     Linkiso: "x",
     GLOTTOCODE: "miss1255",
     linkglot: "https://glottolog.org/resource/languoid/id/miss1255",
+    source:
+      "Hamm, Cameron, Jason Diller, Kari Jordan-Diller & Ferdinand Assako a Tiati. 2001. A rapid appraisal survey of Western Beboid languages (Menchum Division, Northwest Province). SIL International 14.40.",
   },
   {
     Name: "Bu",
@@ -362,6 +404,8 @@ export const DATA = [
     Linkiso: "https://iso639-3.sil.org/code/ jid",
     GLOTTOCODE: "buuu1244",
     linkglot: "https://glottolog.org/resource/languoid/id/buuu1244",
+    source:
+      "Hamm, Cameron, Jason Diller, Kari Jordan-Diller & Ferdinand Assako a Tiati. 2001. A rapid appraisal survey of Western Beboid languages (Menchum Division, Northwest Province). SIL International 14.40.",
   },
   {
     Name: "Misaje",
@@ -373,6 +417,8 @@ export const DATA = [
     Linkiso: "x",
     GLOTTOCODE: "x",
     linkglot: "x",
+    source:
+      "Hamm, Cameron, Jason Diller, Kari Jordan-Diller & Ferdinand Assako a Tiati. 2001. A rapid appraisal survey of Western Beboid languages (Menchum Division, Northwest Province). SIL International 14.40.",
   },
   {
     Name: "Akweto",
@@ -384,6 +430,8 @@ export const DATA = [
     Linkiso: "https://iso639-3.sil.org/code/asj",
     GLOTTOCODE: "nsar1238",
     linkglot: "https://glottolog.org/resource/languoid/id/nsar1238",
+    source:
+      "Hamm, Cameron, Jason Diller, Kari Jordan-Diller & Ferdinand Assako a Tiati. 2001. A rapid appraisal survey of Western Beboid languages (Menchum Division, Northwest Province). SIL International 14.40.",
   },
   {
     Name: "Menkaf",
@@ -395,6 +443,8 @@ export const DATA = [
     Linkiso: "https://iso639-3.sil.org/code/mff",
     GLOTTOCODE: "naki1238",
     linkglot: "https://glottolog.org/resource/languoid/id/naki1238",
+    source:
+      "Hamm, Cameron, Jason Diller, Kari Jordan-Diller & Ferdinand Assako a Tiati. 2001. A rapid appraisal survey of Western Beboid languages (Menchum Division, Northwest Province). SIL International 14.40.",
   },
   {
     Name: "Bebe Jatto",
@@ -406,6 +456,8 @@ export const DATA = [
     Linkiso: "https://iso639-3.sil.org/code/bzv",
     GLOTTOCODE: "bebe1250",
     linkglot: "https://glottolog.org/resource/languoid/id/bebe1250",
+    source:
+      "Hamm, Cameron, Jason Diller, Kari Jordan-Diller & Ferdinand Assako a Tiati. 2001. A rapid appraisal survey of Western Beboid languages (Menchum Division, Northwest Province). SIL International 14.40.",
   },
   {
     Name: "Kenyang",
@@ -417,6 +469,8 @@ export const DATA = [
     Linkiso: "https://iso639-3.sil.org/code/ken",
     GLOTTOCODE: "keny1279",
     linkglot: "https://glottolog.org/resource/languoid/id/keny1279",
+    source:
+      "Grassfields Bantu Working Group including Jean-Marie Hombert and Larry Hyman",
   },
   {
     Name: "Mbembe",
@@ -428,6 +482,8 @@ export const DATA = [
     Linkiso: "https://iso639-3.sil.org/code/nza",
     GLOTTOCODE: "tigo1236",
     linkglot: "https://glottolog.org/resource/languoid/id/tigo1236",
+    source:
+      "Grassfields Bantu Working Group including Jean-Marie Hombert and Larry Hyman",
   },
   {
     Name: "Yukuben",
@@ -439,6 +495,8 @@ export const DATA = [
     Linkiso: "https://iso639-3.sil.org/code/ybl",
     GLOTTOCODE: "yuku1243",
     linkglot: "https://glottolog.org/resource/languoid/id/yuku1243",
+    source:
+      "Shimizu, K. 1971. Comparative Jukunoid: an introductory survey: University of Ibadan.",
   },
   {
     Name: "Kutep",
@@ -450,6 +508,8 @@ export const DATA = [
     Linkiso: "https://iso639-3.sil.org/code/kub",
     GLOTTOCODE: "kute1248",
     linkglot: "https://glottolog.org/resource/languoid/id/kute1248",
+    source:
+      "Shimizu, K. 1971. Comparative Jukunoid: an introductory survey: University of Ibadan.",
   },
   {
     Name: "Kente",
@@ -461,6 +521,8 @@ export const DATA = [
     Linkiso: "x",
     GLOTTOCODE: "kent1256",
     linkglot: "https://glottolog.org/resource/languoid/id/kent1256",
+    source:
+      "Shimizu, K. 1971. Comparative Jukunoid: an introductory survey: University of Ibadan.",
   },
   {
     Name: "Icen",
@@ -472,6 +534,8 @@ export const DATA = [
     Linkiso: "https://iso639-3.sil.org/code/ich",
     GLOTTOCODE: "etky1238",
     linkglot: "https://glottolog.org/resource/languoid/id/etky1238",
+    source:
+      "Shimizu, K. 1971. Comparative Jukunoid: an introductory survey: University of Ibadan.",
   },
   {
     Name: "Ashuku",
@@ -483,6 +547,8 @@ export const DATA = [
     Linkiso: "x",
     GLOTTOCODE: "ashu1243",
     linkglot: "https://glottolog.org/resource/languoid/id/ashu1243",
+    source:
+      "Shimizu, K. 1971. Comparative Jukunoid: an introductory survey: University of Ibadan.",
   },
   {
     Name: "Jiru",
@@ -494,6 +560,8 @@ export const DATA = [
     Linkiso: "https://iso639-3.sil.org/code/jrr",
     GLOTTOCODE: "jiru1238",
     linkglot: "https://glottolog.org/resource/languoid/id/jiru1238",
+    source:
+      "Shimizu, K. 1971. Comparative Jukunoid: an introductory survey: University of Ibadan.",
   },
   {
     Name: "Kom",
@@ -505,6 +573,8 @@ export const DATA = [
     Linkiso: "https://iso639-3.sil.org/code/bkm",
     GLOTTOCODE: "komc1235",
     linkglot: "https://glottolog.org/resource/languoid/id/komc1235",
+    source:
+      "Grassfields Bantu Working Group including Jean-Marie Hombert and Larry Hyman",
   },
   {
     Name: "Oku",
@@ -516,6 +586,8 @@ export const DATA = [
     Linkiso: "https://iso639-3.sil.org/code/oku",
     GLOTTOCODE: "okuu1243",
     linkglot: "https://glottolog.org/resource/languoid/id/okuu1243",
+    source:
+      "Grassfields Bantu Working Group including Jean-Marie Hombert and Larry Hyman",
   },
   {
     Name: "Babanki",
@@ -527,6 +599,8 @@ export const DATA = [
     Linkiso: "https://iso639-3.sil.org/code/bbk",
     GLOTTOCODE: "baba1266",
     linkglot: "https://glottolog.org/resource/languoid/id/baba1266",
+    source:
+      "Grassfields Bantu Working Group including Jean-Marie Hombert and Larry Hyman",
   },
   {
     Name: "Bum",
@@ -538,6 +612,8 @@ export const DATA = [
     Linkiso: "https://iso639-3.sil.org/code/bmv",
     GLOTTOCODE: "bumm1238",
     linkglot: "https://glottolog.org/resource/languoid/id/bumm1238",
+    source:
+      "Grassfields Bantu Working Group including Jean-Marie Hombert and Larry Hyman",
   },
   {
     Name: "Aghem",
@@ -549,6 +625,8 @@ export const DATA = [
     Linkiso: "https://iso639-3.sil.org/code/agq",
     GLOTTOCODE: "aghe1239",
     linkglot: "https://glottolog.org/resource/languoid/id/aghe1239",
+    source:
+      "Grassfields Bantu Working Group including Jean-Marie Hombert and Larry Hyman",
   },
   {
     Name: "Weh",
@@ -560,6 +638,8 @@ export const DATA = [
     Linkiso: "https://iso639-3.sil.org/code/weh",
     GLOTTOCODE: "wehh1238",
     linkglot: "https://glottolog.org/resource/languoid/id/wehh1238",
+    source:
+      "Grassfields Bantu Working Group including Jean-Marie Hombert and Larry Hyman",
   },
   {
     Name: "Isu",
@@ -571,6 +651,8 @@ export const DATA = [
     Linkiso: "https://iso639-3.sil.org/code/isu",
     GLOTTOCODE: "isum1240",
     linkglot: "https://glottolog.org/resource/languoid/id/isum1240",
+    source:
+      "Grassfields Bantu Working Group including Jean-Marie Hombert and Larry Hyman",
   },
   {
     Name: "Zoa",
@@ -582,6 +664,8 @@ export const DATA = [
     Linkiso: "https://iso639-3.sil.org/code/zhw",
     GLOTTOCODE: "zhoa1238",
     linkglot: "https://glottolog.org/resource/languoid/id/zhoa1238",
+    source:
+      "Grassfields Bantu Working Group including Jean-Marie Hombert and Larry Hyman",
   },
   {
     Name: "Kumfutu",
@@ -593,6 +677,8 @@ export const DATA = [
     Linkiso: "https://iso639-3.sil.org/code/kfn",
     GLOTTOCODE: "kukk1239",
     linkglot: "https://glottolog.org/resource/languoid/id/kukk1239",
+    source:
+      "Grassfields Bantu Working Group including Jean-Marie Hombert and Larry Hyman",
   },
   {
     Name: "Babunɡo",
@@ -604,6 +690,8 @@ export const DATA = [
     Linkiso: "https://iso639-3.sil.org/code/bav",
     GLOTTOCODE: "veng1238",
     linkglot: "https://glottolog.org/resource/languoid/id/veng1238",
+    source:
+      "Grassfields Bantu Working Group including Jean-Marie Hombert and Larry Hyman",
   },
   {
     Name: "Babessi",
@@ -615,6 +703,8 @@ export const DATA = [
     Linkiso: "https://iso639-3.sil.org/code/bse",
     GLOTTOCODE: "wush1238",
     linkglot: "https://glottolog.org/resource/languoid/id/wush1238",
+    source:
+      "Grassfields Bantu Working Group including Jean-Marie Hombert and Larry Hyman",
   },
   {
     Name: "Bamessing",
@@ -626,6 +716,8 @@ export const DATA = [
     Linkiso: "https://iso639-3.sil.org/code/ndb",
     GLOTTOCODE: "kens1251",
     linkglot: "https://glottolog.org/resource/languoid/id/kens1251",
+    source:
+      "Grassfields Bantu Working Group including Jean-Marie Hombert and Larry Hyman",
   },
   {
     Name: "Lamso",
@@ -637,6 +729,8 @@ export const DATA = [
     Linkiso: "https://iso639-3.sil.org/code/lns",
     GLOTTOCODE: "lamn1239",
     linkglot: "https://glottolog.org/resource/languoid/id/lamn1239",
+    source:
+      "Grassfields Bantu Working Group including Jean-Marie Hombert and Larry Hyman",
   },
   {
     Name: "Obang",
@@ -648,6 +742,8 @@ export const DATA = [
     Linkiso: "x",
     GLOTTOCODE: "oban1245",
     linkglot: "https://glottolog.org/resource/languoid/id/oban1245",
+    source:
+      "Grassfields Bantu Working Group including Jean-Marie Hombert and Larry Hyman",
   },
   {
     Name: "Ngie",
@@ -659,6 +755,8 @@ export const DATA = [
     Linkiso: "https://iso639-3.sil.org/code/ngj",
     GLOTTOCODE: "ngie1242",
     linkglot: "https://glottolog.org/resource/languoid/id/ngie1242",
+    source:
+      "Grassfields Bantu Working Group including Jean-Marie Hombert and Larry Hyman",
   },
   {
     Name: "Njen",
@@ -670,6 +768,8 @@ export const DATA = [
     Linkiso: "https://iso639-3.sil.org/code/njj",
     GLOTTOCODE: "njen1238",
     linkglot: "https://glottolog.org/resource/languoid/id/njen1238",
+    source:
+      "Grassfields Bantu Working Group including Jean-Marie Hombert and Larry Hyman",
   },
   {
     Name: "Moghamo",
@@ -681,6 +781,8 @@ export const DATA = [
     Linkiso: "x",
     GLOTTOCODE: "mogh1246",
     linkglot: "https://glottolog.org/resource/languoid/id/mogh1246",
+    source:
+      "Grassfields Bantu Working Group including Jean-Marie Hombert and Larry Hyman",
   },
   {
     Name: "Ngembu",
@@ -692,6 +794,8 @@ export const DATA = [
     Linkiso: "https://iso639-3.sil.org/code/nbv",
     GLOTTOCODE: "ngam1267",
     linkglot: "https://glottolog.org/resource/languoid/id/ngam1267",
+    source:
+      "Grassfields Bantu Working Group including Jean-Marie Hombert and Larry Hyman",
   },
   {
     Name: "Oshie",
@@ -703,6 +807,8 @@ export const DATA = [
     Linkiso: "https://iso639-3.sil.org/code/nsh",
     GLOTTOCODE: "ngos1238",
     linkglot: "https://glottolog.org/resource/languoid/id/ngos1238",
+    source:
+      "Grassfields Bantu Working Group including Jean-Marie Hombert and Larry Hyman",
   },
   {
     Name: "Ngwaw",
@@ -714,6 +820,8 @@ export const DATA = [
     Linkiso: "https://iso639-3.sil.org/code/ngn",
     GLOTTOCODE: "ngwo1241",
     linkglot: "https://glottolog.org/resource/languoid/id/ngwo1241",
+    source:
+      "Grassfields Bantu Working Group including Jean-Marie Hombert and Larry Hyman",
   },
   {
     Name: "Mundumi",
@@ -725,6 +833,8 @@ export const DATA = [
     Linkiso: "https://iso639-3.sil.org/code/mnf",
     GLOTTOCODE: "mund1327",
     linkglot: "https://glottolog.org/resource/languoid/id/mund1327",
+    source:
+      "Grassfields Bantu Working Group including Jean-Marie Hombert and Larry Hyman",
   },
   {
     Name: "Menemo",
@@ -736,6 +846,8 @@ export const DATA = [
     Linkiso: "x",
     GLOTTOCODE: "mene1239",
     linkglot: "https://glottolog.org/resource/languoid/id/mene1239",
+    source:
+      "Grassfields Bantu Working Group including Jean-Marie Hombert and Larry Hyman",
   },
   {
     Name: "Ngie-Angong",
@@ -747,6 +859,8 @@ export const DATA = [
     Linkiso: "x",
     GLOTTOCODE: "meng1265",
     linkglot: "https://glottolog.org/resource/languoid/id/meng1265",
+    source:
+      "Grassfields Bantu Working Group including Jean-Marie Hombert and Larry Hyman",
   },
   {
     Name: "Bangang",
@@ -758,6 +872,8 @@ export const DATA = [
     Linkiso: "x",
     GLOTTOCODE: "bang1358",
     linkglot: "https://glottolog.org/resource/languoid/id/bang1358",
+    source:
+      "Grassfields Bantu Working Group including Jean-Marie Hombert and Larry Hyman",
   },
   {
     Name: "Fefe",
@@ -769,6 +885,8 @@ export const DATA = [
     Linkiso: "https://iso639-3.sil.org/code/fmp",
     GLOTTOCODE: "fefe1239",
     linkglot: "https://glottolog.org/resource/languoid/id/fefe1239",
+    source:
+      "Grassfields Bantu Working Group including Jean-Marie Hombert and Larry Hyman",
   },
   {
     Name: "Fotouni",
@@ -780,6 +898,8 @@ export const DATA = [
     Linkiso: "https://iso639-3.sil.org/code/fmp",
     GLOTTOCODE: "fefe1239",
     linkglot: "https://glottolog.org/resource/languoid/id/fefe1239",
+    source:
+      "Grassfields Bantu Working Group including Jean-Marie Hombert and Larry Hyman",
   },
   {
     Name: "Bandjoun",
@@ -791,6 +911,8 @@ export const DATA = [
     Linkiso: "https://iso639-3.sil.org/code/bbj",
     GLOTTOCODE: "ghom1247",
     linkglot: "https://glottolog.org/resource/languoid/id/ghom1247",
+    source:
+      "Grassfields Bantu Working Group including Jean-Marie Hombert and Larry Hyman",
   },
   {
     Name: "Bafou",
@@ -802,6 +924,8 @@ export const DATA = [
     Linkiso: "x",
     GLOTTOCODE: "bafo1236",
     linkglot: "https://glottolog.org/resource/languoid/id/bafo1236",
+    source:
+      "Grassfields Bantu Working Group including Jean-Marie Hombert and Larry Hyman",
   },
   {
     Name: "Bangangte",
@@ -813,6 +937,8 @@ export const DATA = [
     Linkiso: "https://iso639-3.sil.org/code/byv",
     GLOTTOCODE: "medu1238",
     linkglot: "https://glottolog.org/resource/languoid/id/medu1238",
+    source:
+      "Grassfields Bantu Working Group including Jean-Marie Hombert and Larry Hyman",
   },
   {
     Name: "Baham",
@@ -824,6 +950,8 @@ export const DATA = [
     Linkiso: "https://iso639-3.sil.org/code/xmg",
     GLOTTOCODE: "meng1264",
     linkglot: "https://glottolog.org/resource/languoid/id/meng1264",
+    source:
+      "Grassfields Bantu Working Group including Jean-Marie Hombert and Larry Hyman",
   },
   {
     Name: "Fondjomekwet",
@@ -835,6 +963,8 @@ export const DATA = [
     Linkiso: "https://iso639-3.sil.org/code/fmp",
     GLOTTOCODE: "fefe1239",
     linkglot: "https://glottolog.org/resource/languoid/id/fefe1239",
+    source:
+      "Grassfields Bantu Working Group including Jean-Marie Hombert and Larry Hyman",
   },
   {
     Name: "Batcha",
@@ -846,6 +976,8 @@ export const DATA = [
     Linkiso: "https://iso639-3.sil.org/code/nnh",
     GLOTTOCODE: "ngie1241",
     linkglot: "https://glottolog.org/resource/languoid/id/ngie1241",
+    source:
+      "Grassfields Bantu Working Group including Jean-Marie Hombert and Larry Hyman",
   },
   {
     Name: "Batoufam",
@@ -857,6 +989,8 @@ export const DATA = [
     Linkiso: "https://iso639-3.sil.org/code/nnz",
     GLOTTOCODE: "ndan1241",
     linkglot: "https://glottolog.org/resource/languoid/id/ndan1241",
+    source:
+      "Grassfields Bantu Working Group including Jean-Marie Hombert and Larry Hyman",
   },
   {
     Name: "Bali/Mungaka",
@@ -868,6 +1002,8 @@ export const DATA = [
     Linkiso: "https://iso639-3.sil.org/code/mhk",
     GLOTTOCODE: "mung1266",
     linkglot: "https://glottolog.org/resource/languoid/id/mung1266",
+    source:
+      "Grassfields Bantu Working Group including Jean-Marie Hombert and Larry Hyman",
   },
   {
     Name: "Bamun",
@@ -879,6 +1015,8 @@ export const DATA = [
     Linkiso: "https://iso639-3.sil.org/code/bvm",
     GLOTTOCODE: "bamu1253",
     linkglot: "https://glottolog.org/resource/languoid/id/bamu1253",
+    source:
+      "Grassfields Bantu Working Group including Jean-Marie Hombert and Larry Hyman",
   },
   {
     Name: "Baba",
@@ -890,6 +1028,8 @@ export const DATA = [
     Linkiso: "https://iso639-3.sil.org/code/bbw",
     GLOTTOCODE: "baba1264",
     linkglot: "https://glottolog.org/resource/languoid/id/baba1264",
+    source:
+      "Grassfields Bantu Working Group including Jean-Marie Hombert and Larry Hyman",
   },
   {
     Name: "Bambalang",
@@ -901,6 +1041,8 @@ export const DATA = [
     Linkiso: "https://iso639-3.sil.org/code/bmo",
     GLOTTOCODE: "bamb1265",
     linkglot: "https://glottolog.org/resource/languoid/id/bamb1265",
+    source:
+      "Grassfields Bantu Working Group including Jean-Marie Hombert and Larry Hyman",
   },
   {
     Name: "Nkwen",
@@ -912,6 +1054,8 @@ export const DATA = [
     Linkiso: "https://iso639-3.sil.org/code/mfd",
     GLOTTOCODE: "mend1261",
     linkglot: "https://glottolog.org/resource/languoid/id/mend1261",
+    source:
+      "Grassfields Bantu Working Group including Jean-Marie Hombert and Larry Hyman",
   },
   {
     Name: "Bafut",
@@ -923,6 +1067,8 @@ export const DATA = [
     Linkiso: "https://iso639-3.sil.org/code/bfd",
     GLOTTOCODE: "bafu1246",
     linkglot: "https://glottolog.org/resource/languoid/id/bafu1246",
+    source:
+      "Grassfields Bantu Working Group including Jean-Marie Hombert and Larry Hyman",
   },
   {
     Name: "Mankon",
@@ -934,6 +1080,8 @@ export const DATA = [
     Linkiso: "https://iso639-3.sil.org/code/nge",
     GLOTTOCODE: "ngem1255",
     linkglot: "https://glottolog.org/resource/languoid/id/ngem1255",
+    source:
+      "Grassfields Bantu Working Group including Jean-Marie Hombert and Larry Hyman",
   },
   {
     Name: "Awing",
@@ -945,6 +1093,8 @@ export const DATA = [
     Linkiso: "https://iso639-3.sil.org/code/azo",
     GLOTTOCODE: "awin1248",
     linkglot: "https://glottolog.org/resource/languoid/id/awin1248",
+    source:
+      "Grassfields Bantu Working Group including Jean-Marie Hombert and Larry Hyman",
   },
   {
     Name: "Ngwe",
@@ -956,6 +1106,8 @@ export const DATA = [
     Linkiso: "https://iso639-3.sil.org/code/new",
     GLOTTOCODE: "ngwe1238",
     linkglot: "https://glottolog.org/resource/languoid/id/ngwe1238",
+    source:
+      "Grassfields Bantu Working Group including Jean-Marie Hombert and Larry Hyman",
   },
   {
     Name: "Limbum",
@@ -967,6 +1119,8 @@ export const DATA = [
     Linkiso: "https://iso639-3.sil.org/code/lmp",
     GLOTTOCODE: "limb1268",
     linkglot: "https://glottolog.org/resource/languoid/id/limb1268",
+    source:
+      "Grassfields Bantu Working Group including Jean-Marie Hombert and Larry Hyman",
   },
   {
     Name: "Adere",
@@ -978,6 +1132,8 @@ export const DATA = [
     Linkiso: "https://iso639-3.sil.org/code/add",
     GLOTTOCODE: "dzod1238",
     linkglot: "https://glottolog.org/resource/languoid/id/dzod1238",
+    source:
+      "Grassfields Bantu Working Group including Jean-Marie Hombert and Larry Hyman",
   },
   {
     Name: "Ndemli",
@@ -989,6 +1145,8 @@ export const DATA = [
     Linkiso: "https://iso639-3.sil.org/code/nml",
     GLOTTOCODE: "ndem1249",
     linkglot: "https://glottolog.org/resource/languoid/id/ndem1249",
+    source:
+      "Grassfields Bantu Working Group including Jean-Marie Hombert and Larry Hyman",
   },
   {
     Name: "Bwazza",
@@ -1000,6 +1158,8 @@ export const DATA = [
     Linkiso: "x",
     GLOTTOCODE: "bwaz1238",
     linkglot: "https://glottolog.org/resource/languoid/id/bwaz1238",
+    source:
+      "Blench R (2006) Jarawan Bantu: New Data and Its Relation to Bantu.  (Mallam Dendo, Cambridge), p 18.",
   },
   {
     Name: "Mbula",
@@ -1011,6 +1171,8 @@ export const DATA = [
     Linkiso: "x",
     GLOTTOCODE: "mbul1261",
     linkglot: "https://glottolog.org/resource/languoid/id/mbul1261",
+    source:
+      "Blench R (2006) Jarawan Bantu: New Data and Its Relation to Bantu.  (Mallam Dendo, Cambridge), p 18.",
   },
   {
     Name: "Bile",
@@ -1022,6 +1184,8 @@ export const DATA = [
     Linkiso: "https://iso639-3.sil.org/code/bil",
     GLOTTOCODE: "bile1244",
     linkglot: "https://glottolog.org/resource/languoid/id/bile1244",
+    source:
+      "Blench R (2006) Jarawan Bantu: New Data and Its Relation to Bantu.  (Mallam Dendo, Cambridge), p 18.",
   },
   {
     Name: "Kulung",
@@ -1033,6 +1197,8 @@ export const DATA = [
     Linkiso: "https://iso639-3.sil.org/code/bbu",
     GLOTTOCODE: "kulu1255",
     linkglot: "https://glottolog.org/resource/languoid/id/kulu1255",
+    source:
+      "Blench R (2006) Jarawan Bantu: New Data and Its Relation to Bantu.  (Mallam Dendo, Cambridge), p 18.",
   },
   {
     Name: "Duguri",
@@ -1044,6 +1210,8 @@ export const DATA = [
     Linkiso: "https://iso639-3.sil.org/code/dbm",
     GLOTTOCODE: "dugu1249",
     linkglot: "https://glottolog.org/resource/languoid/id/dugu1249",
+    source:
+      "Blench R (2006) Jarawan Bantu: New Data and Its Relation to Bantu.  (Mallam Dendo, Cambridge), p 18.",
   },
   {
     Name: "A11_Londo",
@@ -1055,6 +1223,8 @@ export const DATA = [
     Linkiso: "x",
     GLOTTOCODE: "lond1243",
     linkglot: "https://glottolog.org/resource/languoid/id/lond1243",
+    source:
+      "Kuperus J (1978) Les classes nominales du Londo ; langue bantoue du sud-ouest du Cameroun (Guthrie A11). (Rapport préliminaire):33.",
   },
   {
     Name: "A121_Mbonge",
@@ -1066,6 +1236,8 @@ export const DATA = [
     Linkiso: "x",
     GLOTTOCODE: "mbon1250",
     linkglot: "https://glottolog.org/resource/languoid/id/mbon1250",
+    source:
+      "Friesen DT (2002) Oroko orthography development: Linguistic and sociolinguistic factors. Master of Arts (University of North Dakota).",
   },
   {
     Name: "A122_Bakundu",
@@ -1077,6 +1249,8 @@ export const DATA = [
     Linkiso: "x",
     GLOTTOCODE: "baku1261",
     linkglot: "https://glottolog.org/resource/languoid/id/baku1261",
+    source:
+      "Grassfields Bantu Working Group including Jean-Marie Hombert and Larry Hyman",
   },
   {
     Name: "A15_Manenguba",
@@ -1088,6 +1262,8 @@ export const DATA = [
     Linkiso: "x",
     GLOTTOCODE: "mane1268",
     linkglot: "https://glottolog.org/resource/languoid/id/mane1268",
+    source:
+      "Hedinger R (1987) The Manenguba languages (Bantu A. 15, Mbo cluster) of Cameroon (School of Oriental and African Studies (SOAS), London) p 306.",
   },
   {
     Name: "A15C_Akossi",
@@ -1099,6 +1275,8 @@ export const DATA = [
     Linkiso: "https://iso639-3.sil.org/code/bss",
     GLOTTOCODE: "akoo1248",
     linkglot: "https://glottolog.org/resource/languoid/id/akoo1248",
+    source:
+      "Hedinger R (1987) The Manenguba languages (Bantu A. 15, Mbo cluster) of Cameroon (School of Oriental and African Studies (SOAS), London) p 306.",
   },
   {
     Name: "A22_Bakweri ",
@@ -1110,6 +1288,8 @@ export const DATA = [
     Linkiso: "https://iso639-3.sil.org/code/bri",
     GLOTTOCODE: "mokp1239",
     linkglot: "https://glottolog.org/resource/languoid/id/mokp1239",
+    source:
+      "Connell B (1997) Mokpe (Bakweri), Available on CBOLD http://www.cbold.ish-lyon.cnrs.fr/ (last visit: 24-04-2011).",
   },
   {
     Name: "A24_Duala",
@@ -1121,6 +1301,8 @@ export const DATA = [
     Linkiso: "https://iso639-3.sil.org/code/dua",
     GLOTTOCODE: "dual1243",
     linkglot: "https://glottolog.org/resource/languoid/id/dual1243",
+    source:
+      "Helmlinger P (1972) Dictionnaire duala-français, suivi d'un lexique français-duala (Klincksieck, Langues et Littératures de l'Afrique noire 9, Paris) p 665.",
   },
   {
     Name: "A27_Malimba",
@@ -1132,6 +1314,8 @@ export const DATA = [
     Linkiso: "https://iso639-3.sil.org/code/mzd",
     GLOTTOCODE: "mali1280",
     linkglot: "https://glottolog.org/resource/languoid/id/mali1280",
+    source:
+      "Lamberty M (2002) A rapid appraisal survey of the Abo and Barombi speech communities, South West and Littoral Provinces, Cameroon. SIL International:28.",
   },
   {
     Name: "A31_Bubi",
@@ -1143,6 +1327,8 @@ export const DATA = [
     Linkiso: "https://iso639-3.sil.org/code/bvb",
     GLOTTOCODE: "bube1242",
     linkglot: "https://glottolog.org/resource/languoid/id/bube1242",
+    source:
+      "Rurangwa IM (1989) Enquête linguistique sur le bubi, langue bantu insulaire de Guinée Équatoriale. Actes du Colloque international “Les peuples bantu. Migrations, Expansion et Identité culturelle” Libreville 1-6 avril 1985, Tome I, ed Obenga T (Libreville: CICIBA; Paris: L’Harmattan), pp 76-102.",
   },
   {
     Name: "A33a_Yasa",
@@ -1154,6 +1340,8 @@ export const DATA = [
     Linkiso: "https://iso639-3.sil.org/code/yko",
     GLOTTOCODE: "yasa1242",
     linkglot: "https://glottolog.org/resource/languoid/id/yasa1242",
+    source:
+      "Blench R (2010) Yasa-French wordlist. Available on http://www.rogerblench.info/Language/Niger-Congo//Bantu/A30/Yasa/Yasa-French%20wordlist.pdf ",
   },
   {
     Name: "A34_Benga",
@@ -1165,6 +1353,8 @@ export const DATA = [
     Linkiso: "https://iso639-3.sil.org/code/bng",
     GLOTTOCODE: "beng1282",
     linkglot: "https://glottolog.org/resource/languoid/id/beng1282",
+    source:
+      "ALGAB, Collector: Jean-Marie Hombert, Laboratoire Dynamique du Langage, Lyon",
   },
   {
     Name: "A41_Barombi-Kang",
@@ -1176,6 +1366,8 @@ export const DATA = [
     Linkiso: "https://iso639-3.sil.org/code/bbi",
     GLOTTOCODE: "baro1252",
     linkglot: "https://glottolog.org/resource/languoid/id/baro1252",
+    source:
+      "Lamberty M (2002) A rapid appraisal survey of the Abo and Barombi speech communities, South West and Littoral Provinces, Cameroon. SIL International:28.",
   },
   {
     Name: "A42_Abo",
@@ -1187,6 +1379,8 @@ export const DATA = [
     Linkiso: "https://iso639-3.sil.org/code/abb",
     GLOTTOCODE: "bank1256",
     linkglot: "https://glottolog.org/resource/languoid/id/bank1256",
+    source:
+      "Lamberty M (2002) A rapid appraisal survey of the Abo and Barombi speech communities, South West and Littoral Provinces, Cameroon. SIL International:28.",
   },
   {
     Name: "A43a_Basaa",
@@ -1198,6 +1392,8 @@ export const DATA = [
     Linkiso: "https://iso639-3.sil.org/code/bas",
     GLOTTOCODE: "basa1284",
     linkglot: "https://glottolog.org/resource/languoid/id/basa1284",
+    source:
+      "Collector: Gisèle Teil-Dautrey, Laboratoire Dynamique du Langage, Lyon",
   },
   {
     Name: "A44_Tunen",
@@ -1209,6 +1405,8 @@ export const DATA = [
     Linkiso: "https://iso639-3.sil.org/code/tvu",
     GLOTTOCODE: "tune1261",
     linkglot: "https://glottolog.org/resource/languoid/id/tune1261",
+    source:
+      "Dugast I (1967) Lexique de la langue Tunen (Parler des Banen du Sud-Ouest du Cameroun) (Klincksieck, Langues et littératures de l’Afrique noire, Paris) p 235.",
   },
   {
     Name: "A45_Nyokon",
@@ -1220,6 +1418,8 @@ export const DATA = [
     Linkiso: "https://iso639-3.sil.org/code/nvo",
     GLOTTOCODE: "nyok1243",
     linkglot: "https://glottolog.org/resource/languoid/id/nyok1243",
+    source:
+      "Mous M & Breedveld A (1986) A dialectometrical study of some Bantu languages (A.40-A.60) of Cameroon. La méthode dialectométrique appliquée aux langues africaines, eds Guarisma G & Möhlig WJG (Dietrich Reimer Verlag, Berlin), pp 177-241.",
   },
   {
     Name: "A46_Nomaande",
@@ -1231,6 +1431,8 @@ export const DATA = [
     Linkiso: "https://iso639-3.sil.org/code/lem",
     GLOTTOCODE: "noma1260",
     linkglot: "https://glottolog.org/resource/languoid/id/noma1260",
+    source:
+      "Taylor C & Scruggs TR (2003) Lexique Nomaande-Français. SIL Electronic Survey Reports:24.",
   },
   {
     Name: "A462_Yambeta",
@@ -1242,6 +1444,8 @@ export const DATA = [
     Linkiso: "https://iso639-3.sil.org/code/yat",
     GLOTTOCODE: "yamb1252",
     linkglot: "https://glottolog.org/resource/languoid/id/yamb1252",
+    source:
+      "Mous M & Breedveld A (1986) A dialectometrical study of some Bantu languages (A.40-A.60) of Cameroon. La méthode dialectométrique appliquée aux langues africaines, eds Guarisma G & Möhlig WJG (Dietrich Reimer Verlag, Berlin), pp 177-241.",
   },
   {
     Name: "A51_Bafia_maja",
@@ -1253,6 +1457,8 @@ export const DATA = [
     Linkiso: "https://iso639-3.sil.org/code/lfa",
     GLOTTOCODE: "lefa1242",
     linkglot: "https://glottolog.org/resource/languoid/id/lefa1242",
+    source:
+      "Bastin Y, Coupez A, & Mann M (1999) Continuity and divergence in the Bantu languages: perspectives from a lexicostatistic study (Musée Royal de l’Afrique Centrale (MRAC), Annales, Série in-8°, Sciences humaines 162, Tervuren) p 225.",
   },
   {
     Name: "A53_Bafia_rikpa",
@@ -1264,6 +1470,8 @@ export const DATA = [
     Linkiso: "https://iso639-3.sil.org/code/ksf",
     GLOTTOCODE: "bafi1243",
     linkglot: "https://glottolog.org/resource/languoid/id/bafi1243",
+    source:
+      "Guarisma G (1969) Études bafia: phonologie, classes d'accord et lexique bafia-français (Société des Études Linguistiques et Anthropologiques de France (SELAF), Paris) p 123.",
   },
   {
     Name: "A601_Tuki",
@@ -1275,6 +1483,8 @@ export const DATA = [
     Linkiso: "https://iso639-3.sil.org/code/bag",
     GLOTTOCODE: "tuki1240",
     linkglot: "https://glottolog.org/resource/languoid/id/tuki1240",
+    source:
+      "Kongne Welaze J, Biteya M, Ilomo B, & Okalia G (2006) Lexique Tuki—Français avec index Français—Tuki. Association Nationale des Comités de Langues Camerounaises (ANACLAC):pp. 82.",
   },
   {
     Name: "A622_Nugunu ",
@@ -1286,6 +1496,7 @@ export const DATA = [
     Linkiso: "https://iso639-3.sil.org/code/yas",
     GLOTTOCODE: "nugu1242",
     linkglot: "https://glottolog.org/resource/languoid/id/nugu1242",
+    source: "Robinson CDW (1979) Petit lexique gunu-français (SIL, Yaounde)",
   },
   {
     Name: "A63_Mangisa",
@@ -1297,6 +1508,7 @@ export const DATA = [
     Linkiso: "https://iso639-3.sil.org/code/leo",
     GLOTTOCODE: "leti1245",
     linkglot: "https://glottolog.org/resource/languoid/id/leti1245",
+    source: "Anonymous (19--) SIL comparative African word list.",
   },
   {
     Name: "A71_Eton",
@@ -1308,6 +1520,8 @@ export const DATA = [
     Linkiso: "https://iso639-3.sil.org/code/eto",
     GLOTTOCODE: "eton1253",
     linkglot: "https://glottolog.org/resource/languoid/id/eton1253",
+    source:
+      "Van de Velde MLO (2008) A grammar of Eton (Mouton de Gruyter) p 428.",
   },
   {
     Name: "A72a_Ewondo",
@@ -1319,6 +1533,7 @@ export const DATA = [
     Linkiso: "https://iso639-3.sil.org/code/ewo",
     GLOTTOCODE: "ewon1239",
     linkglot: "https://glottolog.org/resource/languoid/id/ewon1239",
+    source: "Anonymous (1---) Lexique ewondo-français et français-ewondo",
   },
   {
     Name: "A74a_Bulu",
@@ -1330,6 +1545,8 @@ export const DATA = [
     Linkiso: "https://iso639-3.sil.org/code/bum",
     GLOTTOCODE: "bulu1251",
     linkglot: "https://glottolog.org/resource/languoid/id/bulu1251",
+    source:
+      "Alexandre P (1955) Manuel élémentaire de la langue bulu (Sud Cameroun) (Paris : Centre de Hautes Études d’Administration Musulmane (CHEAM)) p 231.",
   },
   {
     Name: "A75a_Fang_Bitam",
@@ -1341,6 +1558,7 @@ export const DATA = [
     Linkiso: "https://iso639-3.sil.org/code/fan",
     GLOTTOCODE: "fang1246",
     linkglot: "https://glottolog.org/resource/languoid/id/fang1246",
+    source: "ALGAB, Collector: Pither Medjo Mve, Université Omar Bongo, Gabon",
   },
   {
     Name: "A81_Kwasio ",
@@ -1352,6 +1570,7 @@ export const DATA = [
     Linkiso: "https://iso639-3.sil.org/code/nmg",
     GLOTTOCODE: "kwas1243",
     linkglot: "https://glottolog.org/resource/languoid/id/kwas1243",
+    source: "Collector: Dan Duke, SIL - Cameroon",
   },
   {
     Name: "A83_Mekaa",
@@ -1363,6 +1582,7 @@ export const DATA = [
     Linkiso: "https://iso639-3.sil.org/code/mcp",
     GLOTTOCODE: "maka1304",
     linkglot: "https://glottolog.org/resource/languoid/id/maka1304",
+    source: "Collector: Daniel P. Heath, SIL - Cameroon",
   },
   {
     Name: "A85b_Bekwil_Makokou",
@@ -1374,6 +1594,8 @@ export const DATA = [
     Linkiso: "https://iso639-3.sil.org/code/bkw",
     GLOTTOCODE: "bekw1242",
     linkglot: "https://glottolog.org/resource/languoid/id/bekw1242",
+    source:
+      "ALGAB, Collector: Marion Cheucle, Laboratoire Dynamique du Langage, Lyon ",
   },
   {
     Name: "A86c_Mpiemo",
@@ -1385,6 +1607,8 @@ export const DATA = [
     Linkiso: "https://iso639-3.sil.org/code/mcx",
     GLOTTOCODE: "mpie1238",
     linkglot: "https://glottolog.org/resource/languoid/id/mpie1238",
+    source:
+      "Bouka L-Y (1993) Bekwel-Congo, Available on CBOLD http://www.cbold.ish-lyon.cnrs.fr/ last visit: 24-04-2011).",
   },
   {
     Name: "A91_Kwakum",
@@ -1396,6 +1620,8 @@ export const DATA = [
     Linkiso: "https://iso639-3.sil.org/code/kwu",
     GLOTTOCODE: "kwak1266",
     linkglot: "https://glottolog.org/resource/languoid/id/kwak1266",
+    source:
+      "Belliard F (2007) Parlons kwàkúm (Editions L'Harmattan, Paris) p 241.",
   },
   {
     Name: "A93_Kako",
@@ -1407,6 +1633,8 @@ export const DATA = [
     Linkiso: "https://iso639-3.sil.org/code/kkj",
     GLOTTOCODE: "kako1242",
     linkglot: "https://glottolog.org/resource/languoid/id/kako1242",
+    source:
+      "Ernst U (1991) Temps et aspect en kako. Tense and aspect in eight languages of Cameroon, eds Anderson SC & Comrie B (Summer Institute of Linguistics and the University of Texas at Arlington Publications in Linguistics, 99), pp 17-45.",
   },
   {
     Name: "B11a_Mpongwe",
@@ -1418,6 +1646,8 @@ export const DATA = [
     Linkiso: "x",
     GLOTTOCODE: "mpon1255",
     linkglot: "https://glottolog.org/resource/languoid/id/mpon1255",
+    source:
+      "ALGAB, Collector: Patrick Mouguiama-Daouda, Université Omar Bongo, Gabon",
   },
   {
     Name: "B11b_Orungu",
@@ -1429,6 +1659,8 @@ export const DATA = [
     Linkiso: "x",
     GLOTTOCODE: "orun1242",
     linkglot: "https://glottolog.org/resource/languoid/id/orun1242",
+    source:
+      "ALGAB, Collectors: Odette Ambouroue and Mark Van de Velde, LLACAN Paris",
   },
   {
     Name: "B11c_Galwa",
@@ -1440,6 +1672,8 @@ export const DATA = [
     Linkiso: "x",
     GLOTTOCODE: "galw1238",
     linkglot: "https://glottolog.org/resource/languoid/id/galw1238",
+    source:
+      "ALGAB, Collector: Jean-Marie Hombert, Laboratoire Dynamique du Langage, Lyon",
   },
   {
     Name: "B11d_Dyumba ",
@@ -1451,6 +1685,8 @@ export const DATA = [
     Linkiso: "x",
     GLOTTOCODE: "ajum1239",
     linkglot: "https://glottolog.org/resource/languoid/id/ajum1239",
+    source:
+      "ALGAB, Collectors: Jean-Marie Hombert, Laboratoire Dynamique du Langage, Lyon, Odette Ambouroue, LLACAN Paris and Mark Van de Velde, LLACAN Paris",
   },
   {
     Name: "B11F_Enenga",
@@ -1462,6 +1698,8 @@ export const DATA = [
     Linkiso: "x",
     GLOTTOCODE: "nen1239",
     linkglot: "https://glottolog.org/resource/languoid/id/nen1239",
+    source:
+      "ALGAB, Collectors: Jean-Marie Hombert, Laboratoire Dynamique du Langage, Lyon, Odette Ambouroue, LLACAN Paris and Mark Van de Velde, LLACAN Paris",
   },
   {
     Name: "B31_Tsogo",
@@ -1473,6 +1711,8 @@ export const DATA = [
     Linkiso: "https://iso639-3.sil.org/code/tsv",
     GLOTTOCODE: "tsog1243",
     linkglot: "https://glottolog.org/resource/languoid/id/tsog1243",
+    source:
+      "ALGAB, Collector: Jean-Marie Hombert, Laboratoire Dynamique du Langage, Lyon",
   },
   {
     Name: "B32_Kande",
@@ -1484,6 +1724,8 @@ export const DATA = [
     Linkiso: "https://iso639-3.sil.org/code/kbs",
     GLOTTOCODE: "kand1300",
     linkglot: "https://glottolog.org/resource/languoid/id/kand1300",
+    source:
+      "ALGAB, Collectors: Jean-Marie Hombert, Laboratoire Dynamique du Langage, Lyon and Rebecca Grollemund, University of Reading",
   },
   {
     Name: "B301_Viya",
@@ -1495,6 +1737,8 @@ export const DATA = [
     Linkiso: "https://iso639-3.sil.org/code/gev",
     GLOTTOCODE: "eviy1235",
     linkglot: "https://glottolog.org/resource/languoid/id/eviy1235",
+    source:
+      "ALGAB, Collector: Lolke van der Veen, Laboratoire Dynamique du Langage, Lyon ",
   },
   {
     Name: "B302_Himba",
@@ -1506,6 +1750,8 @@ export const DATA = [
     Linkiso: "https://iso639-3.sil.org/code/sbw",
     GLOTTOCODE: "simb1254",
     linkglot: "https://glottolog.org/resource/languoid/id/simb1254",
+    source:
+      "ALGAB, Collector: Jean-Marie Hombert, Laboratoire Dynamique du Langage, Lyon",
   },
   {
     Name: "B304_Pinzi",
@@ -1517,6 +1763,8 @@ export const DATA = [
     Linkiso: "https://iso639-3.sil.org/code/pic",
     GLOTTOCODE: "pinj1243",
     linkglot: "https://glottolog.org/resource/languoid/id/pinj1243",
+    source:
+      "ALGAB, Collectors: Jean-Marie Hombert, Laboratoire Dynamique du Langage, Lyon, Lolke van der Veen, Laboratoire Dynamique du Langage, Lyon and Rebecca Grollemund, University of Reading",
   },
   {
     Name: "B305_Vove",
@@ -1528,6 +1776,8 @@ export const DATA = [
     Linkiso: "https://iso639-3.sil.org/code/buw",
     GLOTTOCODE: "bubi1250",
     linkglot: "https://glottolog.org/resource/languoid/id/bubi1250",
+    source:
+      "ALGAB, Collector: Lolke van der Veen, Laboratoire Dynamique du Langage, Lyon ",
   },
   {
     Name: "B21_Seki ",
@@ -1539,6 +1789,8 @@ export const DATA = [
     Linkiso: "https://iso639-3.sil.org/code/syi",
     GLOTTOCODE: "seki1238",
     linkglot: "https://glottolog.org/resource/languoid/id/seki1238",
+    source:
+      "ALGAB, Collector: Gilbert Puech, Laboratoire Dynamique du Langage, Lyon ",
   },
   {
     Name: "B22a_Kele",
@@ -1550,6 +1802,8 @@ export const DATA = [
     Linkiso: "https://iso639-3.sil.org/code/keb",
     GLOTTOCODE: "kele1257",
     linkglot: "https://glottolog.org/resource/languoid/id/kele1257",
+    source:
+      "ALGAB, Collector: Jean-Marie Hombert, Laboratoire Dynamique du Langage, Lyon",
   },
   {
     Name: "B22b_Ngom ",
@@ -1561,6 +1815,8 @@ export const DATA = [
     Linkiso: "https://iso639-3.sil.org/code/nra",
     GLOTTOCODE: "ngom1270",
     linkglot: "https://glottolog.org/resource/languoid/id/ngom1270",
+    source:
+      "ALGAB, Collectors: Jean-Marie Hombert, Laboratoire Dynamique du Langage, Lyon and Gilbert Puech, Laboratoire Dynamique du Langage, Lyon",
   },
   {
     Name: "B22E_Mwesa",
@@ -1572,6 +1828,7 @@ export const DATA = [
     Linkiso: "x",
     GLOTTOCODE: "mwes1234",
     linkglot: "https://glottolog.org/resource/languoid/id/mwes1234",
+    source: "ALGAB, Collector: Pither Medjo Mve, Université Omar Bongo, Gabon",
   },
   {
     Name: "B23_Mbangwe",
@@ -1583,6 +1840,8 @@ export const DATA = [
     Linkiso: "https://iso639-3.sil.org/code/zmn",
     GLOTTOCODE: "mban1268",
     linkglot: "https://glottolog.org/resource/languoid/id/mban1268",
+    source:
+      "ALGAB, Collector: Jean-Marie Hombert, Laboratoire Dynamique du Langage, Lyon",
   },
   {
     Name: "B24_Wumbvu",
@@ -1594,6 +1853,8 @@ export const DATA = [
     Linkiso: "https://iso639-3.sil.org/code/wum",
     GLOTTOCODE: "wumb1242",
     linkglot: "https://glottolog.org/resource/languoid/id/wumb1242",
+    source:
+      "ALGAB, Collector: Jean-Marie Hombert, Laboratoire Dynamique du Langage, Lyon",
   },
   {
     Name: "B25_Kota",
@@ -1605,6 +1866,8 @@ export const DATA = [
     Linkiso: "https://iso639-3.sil.org/code/koq",
     GLOTTOCODE: "kota1274",
     linkglot: "https://glottolog.org/resource/languoid/id/kota1274",
+    source:
+      "ALGAB, Collector: Jean-Marie Hombert, Laboratoire Dynamique du Langage, Lyon",
   },
   {
     Name: "B251_Shake",
@@ -1616,6 +1879,8 @@ export const DATA = [
     Linkiso: "https://iso639-3.sil.org/code/sak",
     GLOTTOCODE: "sake1247",
     linkglot: "https://glottolog.org/resource/languoid/id/sake1247",
+    source:
+      "ALGAB, Collector: Jean-Marie Hombert, Laboratoire Dynamique du Langage, Lyon",
   },
   {
     Name: "B252_Mahongwe",
@@ -1627,6 +1892,7 @@ export const DATA = [
     Linkiso: "https://iso639-3.sil.org/code/mhb",
     GLOTTOCODE: "maho1248",
     linkglot: "https://glottolog.org/resource/languoid/id/maho1248",
+    source: "ALGAB, Collector: Pither Medjo Mve, Université Omar Bongo, Gabon",
   },
   {
     Name: "B201_Ndasa",
@@ -1638,6 +1904,8 @@ export const DATA = [
     Linkiso: "https://iso639-3.sil.org/code/nda",
     GLOTTOCODE: "ndas1238",
     linkglot: "https://glottolog.org/resource/languoid/id/ndas1238",
+    source:
+      "ALGAB, Collector: Jean-Marie Hombert, Laboratoire Dynamique du Langage, Lyon",
   },
   {
     Name: "B202_Sigu",
@@ -1649,6 +1917,8 @@ export const DATA = [
     Linkiso: "https://iso639-3.sil.org/code/sxe",
     GLOTTOCODE: "sigh1238",
     linkglot: "https://glottolog.org/resource/languoid/id/sigh1238",
+    source:
+      "Ibouily D (2005) Esquisse phonologique et morphologique du Lisi:wu (Langue Bantu du Gabon de sigle B 27). Mémoire de Maîtrise (Université Omar Bongo, Gabon).",
   },
   {
     Name: "B203_Samaye",
@@ -1660,6 +1930,8 @@ export const DATA = [
     Linkiso: "https://iso639-3.sil.org/code/syx",
     GLOTTOCODE: "osam1235",
     linkglot: "https://glottolog.org/resource/languoid/id/osam1235",
+    source:
+      "Mokrani S (2005) Elément nouveaux en vue de la description de la langue Samaye (B25) - Elements de phonologie et de morphologie. Mémoire de Master 2 (Université Lyon 2).",
   },
   {
     Name: "B204_Ndambomo_Li",
@@ -1671,5 +1943,6 @@ export const DATA = [
     Linkiso: "https://iso639-3.sil.org/code/nxo",
     GLOTTOCODE: "ndam1254",
     linkglot: "https://glottolog.org/resource/languoid/id/ndam1254",
+    source: "ALGAB, Collector: Pither Medjo Mve, Université Omar Bongo, Gabon",
   },
 ];

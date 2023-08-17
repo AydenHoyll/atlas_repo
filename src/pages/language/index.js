@@ -21,7 +21,12 @@ const LanguagePage = () => {
 
   const object = getObject(state, name);
 
-  const { Classification = "", Latitude = "", Longitude = "" } = object;
+  const {
+    Classification = "",
+    Latitude = "",
+    Longitude = "",
+    source = "",
+  } = object;
 
   const location = [Latitude, Longitude];
 
@@ -35,7 +40,7 @@ const LanguagePage = () => {
       </Typography.Title>
       <MapContainer
         center={location}
-        zoom={8}
+        zoom={4}
         bounds={location}
         zoomControl={false}
         style={{ width: "15%" }}
@@ -51,6 +56,8 @@ const LanguagePage = () => {
           radius="5"
         ></CircleMarker>
       </MapContainer>
+      <Typography.Title level={3}>Sources or collectors:</Typography.Title>
+      <Typography.Text className="text-lg">{source}</Typography.Text>
     </>
   );
 };
