@@ -1,14 +1,6 @@
 export const LEXICON = [
   {
     "Names languages": "Ejagham",
-    Classification: "Ekoid",
-    Country: "Nigeria",
-    Latitude: 5.54,
-    Longitude: 8.91,
-    "ISO CODE": "etu",
-    __EMPTY: "https://iso639-3.sil.org/code/etu",
-    GLOTTOCODE: "ejag1239",
-    __EMPTY_2: "https://glottolog.org/resource/languoid/id/ejag1239",
     animal: {
       word: "ɲ̀ɲàm / ɔ̀ɲàm (9/10)",
       cognacy: 1,
@@ -412,14 +404,7 @@ export const LEXICON = [
   },
   {
     "Names languages": "Efutop",
-    Classification: "Ekoid",
-    Country: "Nigeria",
-    Latitude: 5.92,
-    Longitude: 8.35,
-    "ISO CODE": "ofu",
-    __EMPTY: "https://iso639-3.sil.org/code/",
-    GLOTTOCODE: "efut1242",
-    __EMPTY_2: "https://glottolog.org/resource/languoid/id/efut1242",
+
     animal: {
       word: "ɲ̀-ɲàm / ò-",
       cognacy: 1,
@@ -823,13 +808,7 @@ export const LEXICON = [
   },
   {
     "Names languages": "Balep",
-    Classification: "Ekoid",
-    Country: "Nigeria",
-    Latitude: 6.06,
-    Longitude: 8.66,
-    "ISO CODE": "x",
-    GLOTTOCODE: "bale1253",
-    __EMPTY_2: "https://glottolog.org/resource/languoid/id/bale1253",
+
     animal: {
       word: "ɲ-ɲam",
       cognacy: 1,
@@ -1233,13 +1212,7 @@ export const LEXICON = [
   },
   {
     "Names languages": "Nde",
-    Classification: "Ekoid",
-    Country: "Nigeria",
-    Latitude: 6.22,
-    Longitude: 8.47,
-    "ISO CODE": "x",
-    GLOTTOCODE: "ndee1242",
-    __EMPTY_2: "https://glottolog.org/resource/languoid/id/ndee1242",
+
     animal: {
       word: "ɲ̀-ɲàm / ɛ̀-",
       cognacy: 1,
@@ -1643,13 +1616,7 @@ export const LEXICON = [
   },
   {
     "Names languages": "Nselle",
-    Classification: "Ekoid",
-    Country: "Nigeria",
-    Latitude: 6.2,
-    Longitude: 8.54,
-    "ISO CODE": "x",
-    GLOTTOCODE: "sel1238",
-    __EMPTY_2: "https://glottolog.org/resource/languoid/id/sel1238",
+
     animal: {
       word: "ɲ-ɲa",
       cognacy: 1,
@@ -2053,14 +2020,7 @@ export const LEXICON = [
   },
   {
     "Names languages": "Abanyom",
-    Classification: "Ekoid",
-    Country: "Nigeria",
-    Latitude: 6.31,
-    Longitude: 8.63,
-    "ISO CODE": "abm",
-    __EMPTY: "https://iso639-3.sil.org/code/abm",
-    GLOTTOCODE: "aban1242",
-    __EMPTY_2: "https://glottolog.org/resource/languoid/id/aban1242",
+
     animal: {
       word: "ɲ-ɲam",
       cognacy: 1,
@@ -2464,14 +2424,7 @@ export const LEXICON = [
   },
   {
     "Names languages": "Nkim",
-    Classification: "Ekoid",
-    Country: "Nigeria",
-    Latitude: 6.6,
-    Longitude: 8.77,
-    "ISO CODE": "x",
-    __EMPTY: "x",
-    GLOTTOCODE: "nkem1243",
-    __EMPTY_2: "https://glottolog.org/resource/languoid/id/nkem1243",
+
     animal: {
       word: "ɲ-ɲam",
       cognacy: 1,
@@ -2875,14 +2828,7 @@ export const LEXICON = [
   },
   {
     "Names languages": "Nnam",
-    Classification: "Ekoid",
-    Country: "Nigeria",
-    Latitude: 6.31,
-    Longitude: 8.49,
-    "ISO CODE": "nbp",
-    __EMPTY: "https://iso639-3.sil.org/code/nbp",
-    GLOTTOCODE: "nnam1238",
-    __EMPTY_2: "https://glottolog.org/resource/languoid/id/nnam1238",
+
     animal: {
       word: "ɲ-ɲam",
       cognacy: 1,
@@ -3286,14 +3232,7 @@ export const LEXICON = [
   },
   {
     "Names languages": "Ekajuk",
-    Classification: "Ekoid",
-    Country: "Nigeria",
-    Latitude: 6.46,
-    Longitude: 8.55,
-    "ISO CODE": "eka",
-    __EMPTY: "https://iso639-3.sil.org/code/eka",
-    GLOTTOCODE: "ekaj1238",
-    __EMPTY_2: "https://glottolog.org/resource/languoid/id/ekaj1238",
+
     animal: {
       word: "ɲ-ɲam",
       cognacy: 1,
@@ -3697,14 +3636,7 @@ export const LEXICON = [
   },
   {
     "Names languages": "Mbe",
-    Classification: "Ekoid",
-    Country: "Cameroon",
-    Latitude: 6.26,
-    Longitude: 11.09,
-    "ISO CODE": "mfo",
-    __EMPTY: "https://iso639-3.sil.org/code/mfo",
-    GLOTTOCODE: "mbee1249",
-    __EMPTY_2: "https://glottolog.org/resource/languoid/id/mbee1249",
+
     animal: {
       word: "ɲìam   bè, bù",
       cognacy: 1,
@@ -4108,13 +4040,7 @@ export const LEXICON = [
   },
   {
     "Names languages": "Tikar",
-    Country: "Cameroon",
-    Latitude: 5.87,
-    Longitude: 11.61,
-    "ISO CODE": "tik",
-    __EMPTY: "https://iso639-3.sil.org/code/tik",
-    GLOTTOCODE: "tika1246",
-    __EMPTY_2: "https://glottolog.org/resource/languoid/id/tika1246",
+
     animal: {
       word: "nyæ̀m",
       cognacy: 1,
@@ -4518,14 +4444,7 @@ export const LEXICON = [
   },
   {
     "Names languages": "Esimbi",
-    Classification: "Tivoid",
-    Country: "Cameroon",
-    Latitude: 6.5,
-    Longitude: 9.87,
-    "ISO CODE": "ags",
-    __EMPTY: "https://iso639-3.sil.org/code/ags",
-    GLOTTOCODE: "esim1238",
-    __EMPTY_2: "https://glottolog.org/resource/languoid/id/esim1238",
+
     animal: {
       word: "ɛ̀nyìmì  / ɛnyɛ́mí",
       cognacy: 1,
@@ -4929,14 +4848,7 @@ export const LEXICON = [
   },
   {
     "Names languages": "Tiv",
-    Classification: "Tivoid",
-    Country: "Cameroon",
-    Latitude: 7.5,
-    Longitude: 8.8,
-    "ISO CODE": "tiv",
-    __EMPTY: "https://iso639-3.sil.org/code/tiv",
-    GLOTTOCODE: "tivv1240",
-    __EMPTY_2: "https://glottolog.org/resource/languoid/id/tivv1240",
+
     animal: {
       word: "i̱nya̱m",
       cognacy: 1,
@@ -5340,14 +5252,7 @@ export const LEXICON = [
   },
   {
     "Names languages": "Afi",
-    Classification: "Tivoid",
-    Country: "Cameroon",
-    Latitude: 6.84,
-    Longitude: 10.97,
-    "ISO CODE": "x",
-    __EMPTY: "x",
-    GLOTTOCODE: "aman1261",
-    __EMPTY_2: "https://glottolog.org/resource/languoid/id/aman1261",
+
     animal: {
       word: "nyàm/nyám̀",
       cognacy: 1,
@@ -5751,14 +5656,7 @@ export const LEXICON = [
   },
   {
     "Names languages": "Kamino",
-    Classification: "Tivoid",
-    Country: "Cameroon",
-    Latitude: 6.78,
-    Longitude: 10.95,
-    "ISO CODE": "x",
-    __EMPTY: "x",
-    GLOTTOCODE: "kami1257",
-    __EMPTY_2: "https://glottolog.org/resource/languoid/id/kami1257",
+
     animal: {
       word: "nyàm",
       cognacy: 1,
@@ -6162,14 +6060,7 @@ export const LEXICON = [
   },
   {
     "Names languages": "Ugare",
-    Classification: "Tivoid",
-    Country: "Cameroon",
-    Latitude: 6.33,
-    Longitude: 9.87,
-    "ISO CODE": "iyo",
-    __EMPTY: "https://iso639-3.sil.org/code/iyo",
-    GLOTTOCODE: "mesa1245",
-    __EMPTY_2: "https://glottolog.org/resource/languoid/id/mesa1245",
+
     animal: {
       word: "ɲɑm",
       cognacy: 1,
@@ -6573,14 +6464,7 @@ export const LEXICON = [
   },
   {
     "Names languages": "Oliti",
-    Classification: "Central_Tivoid",
-    Country: "Cameroon",
-    Latitude: 6.54,
-    Longitude: 9.5,
-    "ISO CODE": "x",
-    __EMPTY: "x",
-    GLOTTOCODE: "olit1238",
-    __EMPTY_2: "https://glottolog.org/resource/languoid/id/olit1238",
+
     animal: {
       word: "eɲɑm",
       cognacy: 1,
@@ -6984,14 +6868,7 @@ export const LEXICON = [
   },
   {
     "Names languages": "Evand",
-    Classification: "Central_Tivoid",
-    Country: "Cameroon",
-    Latitude: 6.35,
-    Longitude: 9.46,
-    "ISO CODE": "bzz",
-    __EMPTY: "https://iso639-3.sil.org/code/bzz",
-    GLOTTOCODE: "evan1238",
-    __EMPTY_2: "https://glottolog.org/resource/languoid/id/evan1238",
+
     animal: {
       word: "ɛɲam",
       cognacy: 1,
@@ -7395,14 +7272,7 @@ export const LEXICON = [
   },
   {
     "Names languages": "Caka-Batanga",
-    Classification: "Central_Tivoid",
-    Country: "Cameroon",
-    Latitude: 6.27,
-    Longitude: 9.78,
-    "ISO CODE": "x",
-    __EMPTY: "x",
-    GLOTTOCODE: "bata1286",
-    __EMPTY_2: "https://glottolog.org/resource/languoid/id/bata1286",
+
     animal: {
       word: "iɲɑmǝ",
       cognacy: 1,
@@ -7806,14 +7676,7 @@ export const LEXICON = [
   },
   {
     "Names languages": "Ipulo",
-    Classification: "Tivoid",
-    Country: "Cameroon",
-    Latitude: 6.29,
-    Longitude: 9.65,
-    "ISO CODE": "ass",
-    __EMPTY: "https://iso639-3.sil.org/code/ass",
-    GLOTTOCODE: "ipul1238",
-    __EMPTY_2: "https://glottolog.org/resource/languoid/id/ipul1238",
+
     animal: {
       word: "ɛɲɑm",
       cognacy: 1,
@@ -8217,14 +8080,7 @@ export const LEXICON = [
   },
   {
     "Names languages": "Olulu",
-    Classification: "Tivoid",
-    Country: "Cameroon",
-    Latitude: 6.35,
-    Longitude: 9.67,
-    "ISO CODE": "x",
-    __EMPTY: "x",
-    GLOTTOCODE: "olul1247",
-    __EMPTY_2: "https://glottolog.org/resource/languoid/id/olul1247",
+
     animal: {
       word: "ɛɲɑm",
       cognacy: 1,
@@ -8628,14 +8484,7 @@ export const LEXICON = [
   },
   {
     "Names languages": "Koshin",
-    Classification: "Beboid",
-    Country: "Cameroon",
-    Latitude: 6.58,
-    Longitude: 10.3,
-    "ISO CODE": "kid",
-    __EMPTY: "https://iso639-3.sil.org/code/kid",
-    GLOTTOCODE: "kosh1246",
-    __EMPTY_2: "https://glottolog.org/resource/languoid/id/kosh1246",
+
     animal: {
       word: "ŋjɔm",
       cognacy: 1,
@@ -9039,14 +8888,7 @@ export const LEXICON = [
   },
   {
     "Names languages": "Noni",
-    Classification: "Beboid",
-    Country: "Cameroon",
-    Latitude: 6.37,
-    Longitude: 10.57,
-    "ISO CODE": "\tnhu",
-    __EMPTY: 'https://iso639-3.sil.org/code/"nhu"',
-    GLOTTOCODE: "noon1243",
-    __EMPTY_2: "https://glottolog.org/resource/languoid/id/noon1243",
+
     animal: {
       word: "ǹɲam̀ / n̄ɲām̀",
       cognacy: 1,
@@ -9450,14 +9292,7 @@ export const LEXICON = [
   },
   {
     "Names languages": "Nchanti",
-    Classification: "Beboid",
-    Country: "Cameroon",
-    Latitude: 6.51,
-    Longitude: 10.53,
-    "ISO CODE": "\tncr",
-    __EMPTY: 'https://iso639-3.sil.org/code/"ncr"',
-    GLOTTOCODE: "ncan1245",
-    __EMPTY_2: "https://glottolog.org/resource/languoid/id/ncan1245",
+
     animal: {
       word: "ɲà̰ŋ / ɲā̰ŋ̀",
       cognacy: 1,
@@ -9861,14 +9696,7 @@ export const LEXICON = [
   },
   {
     "Names languages": "Abar",
-    Classification: "Beboid",
-    Country: "Cameroon",
-    Latitude: 6.58,
-    Longitude: 10.23,
-    "ISO CODE": "mij",
-    __EMPTY: "https://iso639-3.sil.org/code/mij",
-    GLOTTOCODE: "abar1238",
-    __EMPTY_2: "https://glottolog.org/resource/languoid/id/abar1238",
+
     animal: {
       word: "iʃi",
       cognacy: 2,
@@ -10272,14 +10100,7 @@ export const LEXICON = [
   },
   {
     "Names languages": "Missong",
-    Classification: "Beboid",
-    Country: "Cameroon",
-    Latitude: 6.6,
-    Longitude: 10.23,
-    "ISO CODE": "x",
-    __EMPTY: "x",
-    GLOTTOCODE: "miss1255",
-    __EMPTY_2: "https://glottolog.org/resource/languoid/id/miss1255",
+
     animal: {
       word: "iʃa",
       cognacy: 2,
@@ -10683,14 +10504,7 @@ export const LEXICON = [
   },
   {
     "Names languages": "Bu",
-    Classification: "Beboid",
-    Country: "Cameroon",
-    Latitude: 6.6,
-    Longitude: 10.27,
-    "ISO CODE": " jid",
-    __EMPTY: "https://iso639-3.sil.org/code/ jid",
-    GLOTTOCODE: "buuu1244",
-    __EMPTY_2: "https://glottolog.org/resource/languoid/id/buuu1244",
+
     animal: {
       word: "njam",
       cognacy: 1,
@@ -11094,10 +10908,7 @@ export const LEXICON = [
   },
   {
     "Names languages": "Misaje",
-    Classification: "Beboid",
-    Country: "Cameroon",
-    Latitude: 6.63,
-    Longitude: 10.59,
+
     animal: {
       word: "ǹɲã̀",
       cognacy: 1,
@@ -11501,14 +11312,7 @@ export const LEXICON = [
   },
   {
     "Names languages": "Akweto",
-    Classification: "Beboid",
-    Country: "Cameroon",
-    Latitude: 6.63,
-    Longitude: 10.6,
-    "ISO CODE": "\tasj",
-    __EMPTY: 'https://iso639-3.sil.org/code/"asj"',
-    GLOTTOCODE: "nsar1238",
-    __EMPTY_2: "https://glottolog.org/resource/languoid/id/nsar1238",
+
     animal: {
       word: "ɲàŋ / ɲâŋ",
       cognacy: 1,
@@ -11912,14 +11716,7 @@ export const LEXICON = [
   },
   {
     "Names languages": "Menkaf",
-    Classification: "Beboid",
-    Country: "Cameroon",
-    Latitude: 6.6,
-    Longitude: 10.17,
-    "ISO CODE": "mff",
-    __EMPTY: "https://iso639-3.sil.org/code/mff",
-    GLOTTOCODE: "naki1238",
-    __EMPTY_2: "https://glottolog.org/resource/languoid/id/naki1238",
+
     animal: {
       word: "ɲàm / ɲâm (9/10)",
       cognacy: 1,
@@ -12323,14 +12120,7 @@ export const LEXICON = [
   },
   {
     "Names languages": "Bebe Jatto",
-    Classification: "Jatto_Beboid",
-    Country: "Cameroon",
-    Latitude: 6.75,
-    Longitude: 10.56,
-    "ISO CODE": "bzv",
-    __EMPTY: "https://iso639-3.sil.org/code/bzv",
-    GLOTTOCODE: "bebe1250",
-    __EMPTY_2: "https://glottolog.org/resource/languoid/id/bebe1250",
+
     animal: {
       word: "pà̰ / pā̰ˋ",
       cognacy: 3,
@@ -12734,14 +12524,7 @@ export const LEXICON = [
   },
   {
     "Names languages": "Kenyang",
-    Classification: "Mamfe",
-    Country: "Cameroon",
-    Latitude: 5.58,
-    Longitude: 9.56,
-    "ISO CODE": "ken",
-    __EMPTY: "https://iso639-3.sil.org/code/ken",
-    GLOTTOCODE: "keny1279",
-    __EMPTY_2: "https://glottolog.org/resource/languoid/id/keny1279",
+
     animal: {
       word: "m̀bɨ̀ɛ̀pˊ / m̀bɨ̀ɛ̀pˊ  (= rat) (9/10)",
       cognacy: 4,
@@ -13145,14 +12928,7 @@ export const LEXICON = [
   },
   {
     "Names languages": "Mbembe",
-    Classification: "Jukunoid",
-    Country: "Cameroon",
-    Latitude: 6.98,
-    Longitude: 10.71,
-    "ISO CODE": "nza",
-    __EMPTY: "https://iso639-3.sil.org/code/nza",
-    GLOTTOCODE: "tigo1236",
-    __EMPTY_2: "https://glottolog.org/resource/languoid/id/tigo1236",
+
     animal: {
       word: "búšʲá / bíšʲá",
       cognacy: 5,
@@ -13556,14 +13332,7 @@ export const LEXICON = [
   },
   {
     "Names languages": "Yukuben",
-    Classification: "Jukunoid",
-    Country: "Cameroon",
-    Latitude: 6.92,
-    Longitude: 9.98,
-    "ISO CODE": "\tybl",
-    __EMPTY: 'https://iso639-3.sil.org/code/"ybl"',
-    GLOTTOCODE: "yuku1243",
-    __EMPTY_2: "https://glottolog.org/resource/languoid/id/yuku1243",
+
     animal: {
       word: "ii-bi/bee",
       cognacy: 6,
@@ -13967,14 +13736,7 @@ export const LEXICON = [
   },
   {
     "Names languages": "Kutep",
-    Classification: "Jukunoid",
-    Country: "Cameroon",
-    Latitude: 7.07,
-    Longitude: 10.09,
-    "ISO CODE": "kub",
-    __EMPTY: "https://iso639-3.sil.org/code/kub",
-    GLOTTOCODE: "kute1248",
-    __EMPTY_2: "https://glottolog.org/resource/languoid/id/kute1248",
+
     animal: {
       word: "i-vye",
       cognacy: 6,
@@ -14378,14 +14140,7 @@ export const LEXICON = [
   },
   {
     "Names languages": "Kente",
-    Classification: "Jukunoid",
-    Country: "Cameroon",
-    Latitude: 7.59,
-    Longitude: 10.17,
-    "ISO CODE": "x",
-    __EMPTY: "x",
-    GLOTTOCODE: "kent1256",
-    __EMPTY_2: "https://glottolog.org/resource/languoid/id/kent1256",
+
     animal: {
       word: "i-we",
       cognacy: 6,
@@ -14789,14 +14544,7 @@ export const LEXICON = [
   },
   {
     "Names languages": "Icen",
-    Classification: "Jukunoid",
-    Country: "Cameroon",
-    Latitude: 7.14,
-    Longitude: 10.35,
-    "ISO CODE": "ich",
-    __EMPTY: "https://iso639-3.sil.org/code/ich",
-    GLOTTOCODE: "etky1238",
-    __EMPTY_2: "https://glottolog.org/resource/languoid/id/etky1238",
+
     animal: {
       word: "uwe ICNL",
       cognacy: 6,
@@ -15200,14 +14948,7 @@ export const LEXICON = [
   },
   {
     "Names languages": "Ashuku",
-    Classification: "Jukunoid",
-    Country: "Cameroon",
-    Latitude: 7.04,
-    Longitude: 10.58,
-    "ISO CODE": "x",
-    __EMPTY: "x",
-    GLOTTOCODE: "ashu1243",
-    __EMPTY_2: "https://glottolog.org/resource/languoid/id/ashu1243",
+
     animal: {
       word: "?",
       cognacy: "?",
@@ -15611,14 +15352,7 @@ export const LEXICON = [
   },
   {
     "Names languages": "Kom",
-    Classification: "Grassfields_Ring_Center",
-    Country: "Cameroon",
-    Latitude: 6.26,
-    Longitude: 10.33,
-    "ISO CODE": "bkm",
-    __EMPTY: "https://iso639-3.sil.org/code/bkm",
-    GLOTTOCODE: "komc1235",
-    __EMPTY_2: "https://glottolog.org/resource/languoid/id/komc1235",
+
     animal: {
       word: "ə̄ɲám",
       cognacy: 1,
@@ -16022,14 +15756,7 @@ export const LEXICON = [
   },
   {
     "Names languages": "Oku",
-    Classification: "Grassfields_Ring_Center",
-    Country: "Cameroon",
-    Latitude: 6.24,
-    Longitude: 10.51,
-    "ISO CODE": "oku",
-    __EMPTY: "https://iso639-3.sil.org/code/oku",
-    GLOTTOCODE: "okuu1243",
-    __EMPTY_2: "https://glottolog.org/resource/languoid/id/okuu1243",
+
     animal: {
       word: "ɲàm / ɲâm",
       cognacy: 1,
@@ -16433,14 +16160,7 @@ export const LEXICON = [
   },
   {
     "Names languages": "Babanki",
-    Classification: "Grassfields_Ring_Center",
-    Country: "Cameroon",
-    Latitude: 5.98,
-    Longitude: 10.29,
-    "ISO CODE": "bbk",
-    __EMPTY: "https://iso639-3.sil.org/code/bbk",
-    GLOTTOCODE: "baba1266",
-    __EMPTY_2: "https://glottolog.org/resource/languoid/id/baba1266",
+
     animal: {
       word: "?",
       cognacy: "?",
@@ -16844,14 +16564,7 @@ export const LEXICON = [
   },
   {
     "Names languages": "Bum",
-    Classification: "Grassfields_Ring_Center",
-    Country: "Cameroon",
-    Latitude: 6.49,
-    Longitude: 10.42,
-    "ISO CODE": "bmv",
-    __EMPTY: "https://iso639-3.sil.org/code/bmv",
-    GLOTTOCODE: "bumm1238",
-    __EMPTY_2: "https://glottolog.org/resource/languoid/id/bumm1238",
+
     animal: {
       word: "āɲâm",
       cognacy: 1,
@@ -17255,14 +16968,7 @@ export const LEXICON = [
   },
   {
     "Names languages": "Aghem",
-    Classification: "Grassfields_Ring_West",
-    Country: "Cameroon",
-    Latitude: 6.39,
-    Longitude: 10.08,
-    "ISO CODE": "agq",
-    __EMPTY: "https://iso639-3.sil.org/code/agq",
-    GLOTTOCODE: "aghe1239",
-    __EMPTY_2: "https://glottolog.org/resource/languoid/id/aghe1239",
+
     animal: {
       word: "ɲɔ̀m",
       cognacy: 1,
@@ -17666,14 +17372,7 @@ export const LEXICON = [
   },
   {
     "Names languages": "Weh",
-    Classification: "Grassfields_Ring_West",
-    Country: "Cameroon",
-    Latitude: 6.46,
-    Longitude: 10.12,
-    "ISO CODE": "weh",
-    __EMPTY: "https://iso639-3.sil.org/code/weh",
-    GLOTTOCODE: "wehh1238",
-    __EMPTY_2: "https://glottolog.org/resource/languoid/id/wehh1238",
+
     animal: {
       word: "ɲàm",
       cognacy: 1,
@@ -18077,14 +17776,7 @@ export const LEXICON = [
   },
   {
     "Names languages": "Isu",
-    Classification: "Grassfields_Ring_West",
-    Country: "Cameroon",
-    Latitude: 6.63,
-    Longitude: 9.99,
-    "ISO CODE": "isu",
-    __EMPTY: "https://iso639-3.sil.org/code/isu",
-    GLOTTOCODE: "isum1240",
-    __EMPTY_2: "https://glottolog.org/resource/languoid/id/isum1240",
+
     animal: {
       word: "ɲàm",
       cognacy: 1,
@@ -18488,14 +18180,7 @@ export const LEXICON = [
   },
   {
     "Names languages": "Zoa",
-    Classification: "Grassfields_Ring_West",
-    Country: "Cameroon",
-    Latitude: 6.53,
-    Longitude: 10.16,
-    "ISO CODE": "zhw",
-    __EMPTY: "https://iso639-3.sil.org/code/zhw",
-    GLOTTOCODE: "zhoa1238",
-    __EMPTY_2: "https://glottolog.org/resource/languoid/id/zhoa1238",
+
     animal: {
       word: "ɲàm",
       cognacy: 1,
@@ -18899,14 +18584,7 @@ export const LEXICON = [
   },
   {
     "Names languages": "Kumfutu",
-    Classification: "Grassfields_Ring_West",
-    Country: "Cameroon",
-    Latitude: 6.48,
-    Longitude: 10.2,
-    "ISO CODE": "kfn",
-    __EMPTY: "https://iso639-3.sil.org/code/kfn",
-    GLOTTOCODE: "kukk1239",
-    __EMPTY_2: "https://glottolog.org/resource/languoid/id/kukk1239",
+
     animal: {
       word: "ɲàm",
       cognacy: 1,
@@ -19310,14 +18988,7 @@ export const LEXICON = [
   },
   {
     "Names languages": "Babunɡo",
-    Classification: "Grassfields_Ring_South",
-    Country: "Cameroon",
-    Latitude: 6.11,
-    Longitude: 10.41,
-    "ISO CODE": "bav",
-    __EMPTY: "https://iso639-3.sil.org/code/bav",
-    GLOTTOCODE: "veng1238",
-    __EMPTY_2: "https://glottolog.org/resource/languoid/id/veng1238",
+
     animal: {
       word: "ɲà",
       cognacy: 1,
@@ -19721,14 +19392,7 @@ export const LEXICON = [
   },
   {
     "Names languages": "Babessi",
-    Classification: "Grassfields_Ring_South",
-    Country: "Cameroon",
-    Latitude: 6.07,
-    Longitude: 10.6,
-    "ISO CODE": "bse",
-    __EMPTY: "https://iso639-3.sil.org/code/bse",
-    GLOTTOCODE: "wush1238",
-    __EMPTY_2: "https://glottolog.org/resource/languoid/id/wush1238",
+
     animal: {
       word: "ɲò:",
       cognacy: 1,
@@ -20132,14 +19796,7 @@ export const LEXICON = [
   },
   {
     "Names languages": "Bamessing",
-    Classification: "Grassfields_Ring_South",
-    Country: "Cameroon",
-    Latitude: 6.02,
-    Longitude: 10.41,
-    "ISO CODE": "ndb",
-    __EMPTY: "https://iso639-3.sil.org/code/ndb",
-    GLOTTOCODE: "kens1251",
-    __EMPTY_2: "https://glottolog.org/resource/languoid/id/kens1251",
+
     animal: {
       word: "?",
       cognacy: "?",
@@ -20543,14 +20200,7 @@ export const LEXICON = [
   },
   {
     "Names languages": "Lamso",
-    Classification: "Ring_East",
-    Country: "Cameroon",
-    Latitude: 6.4,
-    Longitude: 11.07,
-    "ISO CODE": "lns",
-    __EMPTY: "https://iso639-3.sil.org/code/lns",
-    GLOTTOCODE: "lamn1239",
-    __EMPTY_2: "https://glottolog.org/resource/languoid/id/lamn1239",
+
     animal: {
       word: "ɲām̀ (B)",
       cognacy: 1,
@@ -20954,14 +20604,7 @@ export const LEXICON = [
   },
   {
     "Names languages": "Obang",
-    Classification: "Menchum",
-    Country: "Cameroon",
-    Latitude: 6.28,
-    Longitude: 10.03,
-    "ISO CODE": "x",
-    __EMPTY: "x",
-    GLOTTOCODE: "oban1245",
-    __EMPTY_2: "https://glottolog.org/resource/languoid/id/oban1245",
+
     animal: {
       word: "?",
       cognacy: "?",
@@ -21365,14 +21008,7 @@ export const LEXICON = [
   },
   {
     "Names languages": "Ngie",
-    Classification: "Grassfields_Momo",
-    Country: "Cameroon",
-    Latitude: 5.94,
-    Longitude: 9.79,
-    "ISO CODE": "ngj",
-    __EMPTY: "https://iso639-3.sil.org/code/ngj",
-    GLOTTOCODE: "ngie1242",
-    __EMPTY_2: "https://glottolog.org/resource/languoid/id/ngie1242",
+
     animal: {
       word: "ɲíɛ̀ (9)",
       cognacy: 1,
@@ -21776,14 +21412,7 @@ export const LEXICON = [
   },
   {
     "Names languages": "Njen",
-    Classification: "Grassfields_Momo",
-    Country: "Cameroon",
-    Latitude: 5.75,
-    Longitude: 9.9,
-    "ISO CODE": "njj",
-    __EMPTY: "https://iso639-3.sil.org/code/njj",
-    GLOTTOCODE: "njen1238",
-    __EMPTY_2: "https://glottolog.org/resource/languoid/id/njen1238",
+
     animal: {
       word: "áɲɛ̀m ",
       cognacy: 1,
@@ -22187,14 +21816,7 @@ export const LEXICON = [
   },
   {
     "Names languages": "Moghamo",
-    Classification: "Grassfields_Momo",
-    Country: "Cameroon",
-    Latitude: 6.11,
-    Longitude: 9.97,
-    "ISO CODE": "x",
-    __EMPTY: "x",
-    GLOTTOCODE: "mogh1246",
-    __EMPTY_2: "https://glottolog.org/resource/languoid/id/mogh1246",
+
     animal: {
       word: "ɲâm / ɲâm (9/10)",
       cognacy: 1,
@@ -22598,14 +22220,7 @@ export const LEXICON = [
   },
   {
     "Names languages": "Ngembu",
-    Classification: "Grassfields_Momo",
-    Country: "Cameroon",
-    Latitude: 5.9,
-    Longitude: 10.09,
-    "ISO CODE": "nbv",
-    __EMPTY: "https://iso639-3.sil.org/code/nbv",
-    GLOTTOCODE: "ngam1267",
-    __EMPTY_2: "https://glottolog.org/resource/languoid/id/ngam1267",
+
     animal: {
       word: "ɲâm",
       cognacy: 1,
@@ -23009,14 +22624,7 @@ export const LEXICON = [
   },
   {
     "Names languages": "Oshie",
-    Classification: "Grassfields_Momo",
-    Country: "Cameroon",
-    Latitude: 6.05,
-    Longitude: 9.83,
-    "ISO CODE": "nsh",
-    __EMPTY: "https://iso639-3.sil.org/code/nsh",
-    GLOTTOCODE: "ngos1238",
-    __EMPTY_2: "https://glottolog.org/resource/languoid/id/ngos1238",
+
     animal: {
       word: "ɲ̀î (9)",
       cognacy: 1,
@@ -23420,14 +23028,7 @@ export const LEXICON = [
   },
   {
     "Names languages": "Ngwaw",
-    Classification: "Grassfields_Momo",
-    Country: "Cameroon",
-    Latitude: 6.18,
-    Longitude: 9.84,
-    "ISO CODE": "ngn",
-    __EMPTY: "https://iso639-3.sil.org/code/ngn",
-    GLOTTOCODE: "ngwo1241",
-    __EMPTY_2: "https://glottolog.org/resource/languoid/id/ngwo1241",
+
     animal: {
       word: "ɲ́ɲɛ̂m (9/10)",
       cognacy: 1,
@@ -23831,14 +23432,7 @@ export const LEXICON = [
   },
   {
     "Names languages": "Mundumi",
-    Classification: "Grassfields_Momo",
-    Country: "Cameroon",
-    Latitude: 6.14,
-    Longitude: 9.97,
-    "ISO CODE": "mnf",
-    __EMPTY: "https://iso639-3.sil.org/code/mnf",
-    GLOTTOCODE: "mund1327",
-    __EMPTY_2: "https://glottolog.org/resource/languoid/id/mund1327",
+
     animal: {
       word: "?",
       cognacy: "?",
@@ -24242,14 +23836,7 @@ export const LEXICON = [
   },
   {
     "Names languages": "Menemo",
-    Classification: "Grassfields_Momo",
-    Country: "Cameroon",
-    Latitude: 6.11,
-    Longitude: 9.97,
-    "ISO CODE": "x",
-    __EMPTY: "x",
-    GLOTTOCODE: "mene1239",
-    __EMPTY_2: "https://glottolog.org/resource/languoid/id/mene1239",
+
     animal: {
       word: "ɲâm",
       cognacy: 1,
@@ -24653,14 +24240,7 @@ export const LEXICON = [
   },
   {
     "Names languages": "Ngie-Angong",
-    Classification: "Grassfields_Momo",
-    Country: "Cameroon",
-    Latitude: 5.97,
-    Longitude: 9.67,
-    "ISO CODE": "x",
-    __EMPTY: "x",
-    GLOTTOCODE: "meng1265",
-    __EMPTY_2: "https://glottolog.org/resource/languoid/id/meng1265",
+
     animal: {
       word: "ìɲíə̀",
       cognacy: 1,
@@ -25064,14 +24644,7 @@ export const LEXICON = [
   },
   {
     "Names languages": "Bangang",
-    Classification: "Grassfields_EG_Bamileke",
-    Country: "Cameroon",
-    Latitude: 5.61,
-    Longitude: 10.13,
-    "ISO CODE": "x",
-    __EMPTY: "x",
-    GLOTTOCODE: "bang1358",
-    __EMPTY_2: "https://glottolog.org/resource/languoid/id/bang1358",
+
     animal: {
       word: "èmbáp / mèmbáp (9/4)",
       cognacy: 4,
@@ -25475,14 +25048,7 @@ export const LEXICON = [
   },
   {
     "Names languages": "Fefe",
-    Classification: "Grassfields_EG_Bamileke",
-    Country: "Cameroon",
-    Latitude: 5.18,
-    Longitude: 10.14,
-    "ISO CODE": "\tfmp",
-    __EMPTY: 'https://iso639-3.sil.org/code/"fmp"',
-    GLOTTOCODE: "fefe1239",
-    __EMPTY_2: "https://glottolog.org/resource/languoid/id/fefe1239",
+
     animal: {
       word: "nə̀ə",
       cognacy: 1,
@@ -25886,14 +25452,7 @@ export const LEXICON = [
   },
   {
     "Names languages": "Fotouni",
-    Classification: "Grassfields_EG_Bamileke",
-    Country: "Cameroon",
-    Latitude: 5.18,
-    Longitude: 10.14,
-    "ISO CODE": "\tfmp",
-    __EMPTY: 'https://iso639-3.sil.org/code/"fmp"',
-    GLOTTOCODE: "fefe1239",
-    __EMPTY_2: "https://glottolog.org/resource/languoid/id/fefe1239",
+
     animal: {
       word: "nɔ̀m",
       cognacy: 1,
@@ -26297,14 +25856,7 @@ export const LEXICON = [
   },
   {
     "Names languages": "Bandjoun",
-    Classification: "Grassfields_EG_Bamileke",
-    Country: "Cameroon",
-    Latitude: 5.4,
-    Longitude: 10.35,
-    "ISO CODE": "bbj",
-    __EMPTY: "https://iso639-3.sil.org/code/bbj",
-    GLOTTOCODE: "ghom1247",
-    __EMPTY_2: "https://glottolog.org/resource/languoid/id/ghom1247",
+
     animal: {
       word: "nɔ̀m",
       cognacy: 1,
@@ -26708,14 +26260,7 @@ export const LEXICON = [
   },
   {
     "Names languages": "Bafou",
-    Classification: "Grassfields_EG_Bamileke",
-    Country: "Cameroon",
-    Latitude: 5.47,
-    Longitude: 10.02,
-    "ISO CODE": "x",
-    __EMPTY: "x",
-    GLOTTOCODE: "bafo1236",
-    __EMPTY_2: "https://glottolog.org/resource/languoid/id/bafo1236",
+
     animal: {
       word: "nà",
       cognacy: 1,
@@ -27119,14 +26664,7 @@ export const LEXICON = [
   },
   {
     "Names languages": "Bangangte",
-    Classification: "Grassfields_EG_Bamileke",
-    Country: "Cameroon",
-    Latitude: 5.14,
-    Longitude: 10.52,
-    "ISO CODE": "byv",
-    __EMPTY: "https://iso639-3.sil.org/code/byv",
-    GLOTTOCODE: "medu1238",
-    __EMPTY_2: "https://glottolog.org/resource/languoid/id/medu1238",
+
     animal: {
       word: "ɲàm",
       cognacy: 1,
@@ -27530,14 +27068,7 @@ export const LEXICON = [
   },
   {
     "Names languages": "Baham",
-    Classification: "Grassfields_EG_Bamileke",
-    Country: "Cameroon",
-    Latitude: 5.33,
-    Longitude: 10.39,
-    "ISO CODE": "xmg",
-    __EMPTY: "https://iso639-3.sil.org/code/xmg",
-    GLOTTOCODE: "meng1264",
-    __EMPTY_2: "https://glottolog.org/resource/languoid/id/meng1264",
+
     animal: {
       word: "nɔ̀m",
       cognacy: 1,
@@ -27941,14 +27472,7 @@ export const LEXICON = [
   },
   {
     "Names languages": "Fondjomekwet",
-    Classification: "Grassfields_EG_Bamileke",
-    Country: "Cameroon",
-    Latitude: 5.26,
-    Longitude: 10.15,
-    "ISO CODE": "\tfmp",
-    __EMPTY: 'https://iso639-3.sil.org/code/"fmp"',
-    GLOTTOCODE: "fefe1239",
-    __EMPTY_2: "https://glottolog.org/resource/languoid/id/fefe1239",
+
     animal: {
       word: "nɔ̀m",
       cognacy: 1,
@@ -28352,14 +27876,7 @@ export const LEXICON = [
   },
   {
     "Names languages": "Batcha",
-    Classification: "Grassfields_EG_Bamileke",
-    Country: "Cameroon",
-    Latitude: 5.11,
-    Longitude: 10.32,
-    "ISO CODE": "nnh",
-    __EMPTY: "https://iso639-3.sil.org/code/nnh",
-    GLOTTOCODE: "ngie1241",
-    __EMPTY_2: "https://glottolog.org/resource/languoid/id/ngie1241",
+
     animal: {
       word: "nɔ̀ɔ",
       cognacy: 1,
@@ -28763,14 +28280,7 @@ export const LEXICON = [
   },
   {
     "Names languages": "Batoufam",
-    Classification: "Grassfields_EG_Bamileke",
-    Country: "Cameroon",
-    Latitude: 5.26,
-    Longitude: 10.46,
-    "ISO CODE": "nnz",
-    __EMPTY: "https://iso639-3.sil.org/code/nnz",
-    GLOTTOCODE: "ndan1241",
-    __EMPTY_2: "https://glottolog.org/resource/languoid/id/ndan1241",
+
     animal: {
       word: "nɔ̀m",
       cognacy: 1,
@@ -29174,14 +28684,7 @@ export const LEXICON = [
   },
   {
     "Names languages": "Bali/Mungaka",
-    Classification: "Grassfields_EG_Nun",
-    Country: "Cameroon",
-    Latitude: 5.9,
-    Longitude: 10.03,
-    "ISO CODE": "mhk",
-    __EMPTY: "https://iso639-3.sil.org/code/mhk",
-    GLOTTOCODE: "mung1266",
-    __EMPTY_2: "https://glottolog.org/resource/languoid/id/mung1266",
+
     animal: {
       word: "ɲàm",
       cognacy: 1,
@@ -29585,14 +29088,7 @@ export const LEXICON = [
   },
   {
     "Names languages": "Bamun",
-    Classification: "Grassfields_EG_Nun",
-    Country: "Cameroon",
-    Latitude: 5.49,
-    Longitude: 10.85,
-    "ISO CODE": "bvm",
-    __EMPTY: "https://iso639-3.sil.org/code/bvm",
-    GLOTTOCODE: "bamu1253",
-    __EMPTY_2: "https://glottolog.org/resource/languoid/id/bamu1253",
+
     animal: {
       word: "ɲàm",
       cognacy: 1,
@@ -29996,14 +29492,7 @@ export const LEXICON = [
   },
   {
     "Names languages": "Baba",
-    Classification: "Grassfields_EG_Nun",
-    Country: "Cameroon",
-    Latitude: 6.11,
-    Longitude: 10.52,
-    "ISO CODE": "bbw",
-    __EMPTY: "https://iso639-3.sil.org/code/bbw",
-    GLOTTOCODE: "baba1264",
-    __EMPTY_2: "https://glottolog.org/resource/languoid/id/baba1264",
+
     animal: {
       word: "?",
       cognacy: "?",
@@ -30407,14 +29896,7 @@ export const LEXICON = [
   },
   {
     "Names languages": "Bambalang",
-    Classification: "Grassfields_EG_Nun",
-    Country: "Cameroon",
-    Latitude: 5.86,
-    Longitude: 10.54,
-    "ISO CODE": "bmo",
-    __EMPTY: "https://iso639-3.sil.org/code/bmo",
-    GLOTTOCODE: "bamb1265",
-    __EMPTY_2: "https://glottolog.org/resource/languoid/id/bamb1265",
+
     animal: {
       word: "?",
       cognacy: "?",
@@ -30818,14 +30300,7 @@ export const LEXICON = [
   },
   {
     "Names languages": "Nkwen",
-    Classification: "Grassfields_EG_Ngemba",
-    Country: "Cameroon",
-    Latitude: 6.03,
-    Longitude: 10.24,
-    "ISO CODE": "mfd",
-    __EMPTY: "https://iso639-3.sil.org/code/mfd",
-    GLOTTOCODE: "mend1261",
-    __EMPTY_2: "https://glottolog.org/resource/languoid/id/mend1261",
+
     animal: {
       word: "ǹnà (= animal)",
       cognacy: 1,
@@ -31229,14 +30704,7 @@ export const LEXICON = [
   },
   {
     "Names languages": "Bafut",
-    Classification: "Grassfields_EG_Ngemba",
-    Country: "Cameroon",
-    Latitude: 6.14,
-    Longitude: 10.12,
-    "ISO CODE": "bfd",
-    __EMPTY: "https://iso639-3.sil.org/code/bfd",
-    GLOTTOCODE: "bafu1246",
-    __EMPTY_2: "https://glottolog.org/resource/languoid/id/bafu1246",
+
     animal: {
       word: "m̄bà / m̄bà  (9/10)",
       cognacy: 4,
@@ -31640,14 +31108,7 @@ export const LEXICON = [
   },
   {
     "Names languages": "Mankon",
-    Classification: "Grassfields_EG_Ngemba",
-    Country: "Cameroon",
-    Latitude: 5.96,
-    Longitude: 10.15,
-    "ISO CODE": "nge",
-    __EMPTY: "https://iso639-3.sil.org/code/nge",
-    GLOTTOCODE: "ngem1255",
-    __EMPTY_2: "https://glottolog.org/resource/languoid/id/ngem1255",
+
     animal: {
       word: "ɨ̀ɲàmə̀",
       cognacy: 1,
@@ -32051,14 +31512,7 @@ export const LEXICON = [
   },
   {
     "Names languages": "Awing",
-    Classification: "Grassfields_EG_Ngemba",
-    Country: "Cameroon",
-    Latitude: 5.88,
-    Longitude: 10.26,
-    "ISO CODE": "azo",
-    __EMPTY: "https://iso639-3.sil.org/code/azo",
-    GLOTTOCODE: "awin1248",
-    __EMPTY_2: "https://glottolog.org/resource/languoid/id/awin1248",
+
     animal: {
       word: "?",
       cognacy: "?",
@@ -32462,14 +31916,7 @@ export const LEXICON = [
   },
   {
     "Names languages": "Ngwe",
-    Classification: "Grassfields_EG_Bamileke",
-    Country: "Cameroon",
-    Latitude: 5.5,
-    Longitude: 9.9,
-    "ISO CODE": "new",
-    __EMPTY: "https://iso639-3.sil.org/code/new",
-    GLOTTOCODE: "ngwe1238",
-    __EMPTY_2: "https://glottolog.org/resource/languoid/id/ngwe1238",
+
     animal: {
       word: "?",
       cognacy: "?",
@@ -32873,14 +32320,7 @@ export const LEXICON = [
   },
   {
     "Names languages": "Limbum",
-    Classification: "Grassfields_EG_North",
-    Country: "Cameroon",
-    Latitude: 6.59,
-    Longitude: 10.98,
-    "ISO CODE": "lmp",
-    __EMPTY: "https://iso639-3.sil.org/code/lmp",
-    GLOTTOCODE: "limb1268",
-    __EMPTY_2: "https://glottolog.org/resource/languoid/id/limb1268",
+
     animal: {
       word: "ɲà: et mbàb˚ (meat)",
       cognacy: 1,
@@ -33284,14 +32724,7 @@ export const LEXICON = [
   },
   {
     "Names languages": "Adere",
-    Classification: "Grassfields_EG_North",
-    Country: "Cameroon",
-    Latitude: 6.89,
-    Longitude: 10.76,
-    "ISO CODE": "add",
-    __EMPTY: "https://iso639-3.sil.org/code/add",
-    GLOTTOCODE: "dzod1238",
-    __EMPTY_2: "https://glottolog.org/resource/languoid/id/dzod1238",
+
     animal: {
       word: "ɲàm ou mbàp˚",
       cognacy: 1,
@@ -33695,14 +33128,7 @@ export const LEXICON = [
   },
   {
     "Names languages": "Ndemli",
-    Classification: "Grassfields",
-    Country: "Cameroon",
-    Latitude: 4.58,
-    Longitude: 10.22,
-    "ISO CODE": "nml",
-    __EMPTY: "https://iso639-3.sil.org/code/nml",
-    GLOTTOCODE: "ndem1249",
-    __EMPTY_2: "https://glottolog.org/resource/languoid/id/ndem1249",
+
     animal: {
       word: "nyàm ",
       cognacy: 1,
@@ -34106,14 +33532,7 @@ export const LEXICON = [
   },
   {
     "Names languages": "Bwazza",
-    Classification: "Jarawan",
-    Country: "Cameroon or Nigeria?",
-    Latitude: 9.68,
-    Longitude: 12.19,
-    "ISO CODE": "x",
-    __EMPTY: "x",
-    GLOTTOCODE: "bwaz1238",
-    __EMPTY_2: "https://glottolog.org/resource/languoid/id/bwaz1238",
+
     animal: {
       word: "nyama",
       cognacy: 1,
@@ -34517,14 +33936,7 @@ export const LEXICON = [
   },
   {
     "Names languages": "Mbula",
-    Classification: "Jarawan",
-    Country: "Nigeria",
-    Latitude: 9.64,
-    Longitude: 12.1,
-    "ISO CODE": "x",
-    __EMPTY: "x",
-    GLOTTOCODE: "mbul1261",
-    __EMPTY_2: "https://glottolog.org/resource/languoid/id/mbul1261",
+
     animal: {
       word: "nyámá",
       cognacy: 1,
@@ -34928,14 +34340,7 @@ export const LEXICON = [
   },
   {
     "Names languages": "Bile",
-    Classification: "Jarawan",
-    Country: "Nigeria",
-    Latitude: 9.05,
-    Longitude: 11.87,
-    "ISO CODE": "bil",
-    __EMPTY: "https://iso639-3.sil.org/code/bil",
-    GLOTTOCODE: "bile1244",
-    __EMPTY_2: "https://glottolog.org/resource/languoid/id/bile1244",
+
     animal: {
       word: "nyama",
       cognacy: 1,
@@ -35339,14 +34744,7 @@ export const LEXICON = [
   },
   {
     "Names languages": "Kulung",
-    Classification: "Jarawan",
-    Country: "Nigeria",
-    Latitude: 9.46,
-    Longitude: 10.97,
-    "ISO CODE": "bbu",
-    __EMPTY: "https://iso639-3.sil.org/code/bbu",
-    GLOTTOCODE: "kulu1255",
-    __EMPTY_2: "https://glottolog.org/resource/languoid/id/kulu1255",
+
     animal: {
       word: "nyɛmɛ",
       cognacy: 1,
@@ -35750,14 +35148,7 @@ export const LEXICON = [
   },
   {
     "Names languages": "Duguri",
-    Classification: "Jarawan",
-    Country: "Nigeria",
-    Latitude: 9.61,
-    Longitude: 10.87,
-    "ISO CODE": "dbm",
-    __EMPTY: "https://iso639-3.sil.org/code/dbm",
-    GLOTTOCODE: "dugu1249",
-    __EMPTY_2: "https://glottolog.org/resource/languoid/id/dugu1249",
+
     animal: {
       word: "nyâm",
       cognacy: 1,
@@ -36161,14 +35552,7 @@ export const LEXICON = [
   },
   {
     "Names languages": "A11_Londo",
-    Classification: "Bantu",
-    Country: "Cameroon",
-    Latitude: 5.1,
-    Longitude: 9.29,
-    "ISO CODE": "x",
-    __EMPTY: "x",
-    GLOTTOCODE: "lond1243",
-    __EMPTY_2: "https://glottolog.org/resource/languoid/id/lond1243",
+
     animal: {
       word: "n-yàmà",
       cognacy: 1,
@@ -36572,14 +35956,7 @@ export const LEXICON = [
   },
   {
     "Names languages": "A121_Mbonge",
-    Classification: "Bantu",
-    Country: "Cameroon",
-    Latitude: 4.78,
-    Longitude: 9.2,
-    "ISO CODE": "x",
-    __EMPTY: "x",
-    GLOTTOCODE: "mbon1250",
-    __EMPTY_2: "https://glottolog.org/resource/languoid/id/mbon1250",
+
     animal: {
       word: "ɲama",
       cognacy: 1,
@@ -36983,14 +36360,7 @@ export const LEXICON = [
   },
   {
     "Names languages": "A122_Bakundu",
-    Classification: "Bantu",
-    Country: "Cameroon",
-    Latitude: 4.81,
-    Longitude: 9.1,
-    "ISO CODE": "x",
-    __EMPTY: "x",
-    GLOTTOCODE: "baku1261",
-    __EMPTY_2: "https://glottolog.org/resource/languoid/id/baku1261",
+
     animal: {
       word: "ɲàmà  (9/10)",
       cognacy: 1,
@@ -37394,14 +36764,7 @@ export const LEXICON = [
   },
   {
     "Names languages": "A15_Manenguba",
-    Classification: "Bantu",
-    Country: "Cameroon",
-    Latitude: 4.98,
-    Longitude: 9.67,
-    "ISO CODE": "x",
-    __EMPTY: "x",
-    GLOTTOCODE: "mane1268",
-    __EMPTY_2: "https://glottolog.org/resource/languoid/id/mane1268",
+
     animal: {
       word: "ɲàm",
       cognacy: 1,
@@ -37805,14 +37168,7 @@ export const LEXICON = [
   },
   {
     "Names languages": "A15C_Akossi",
-    Classification: "Bantu",
-    Country: "Cameroon",
-    Latitude: 5.3,
-    Longitude: 9.55,
-    "ISO CODE": "bss",
-    __EMPTY: "https://iso639-3.sil.org/code/bss",
-    GLOTTOCODE: "akoo1248",
-    __EMPTY_2: "https://glottolog.org/resource/languoid/id/akoo1248",
+
     animal: {
       word: "ɲàm; è-lém / èˀ-",
       cognacy: 1,
@@ -38216,14 +37572,7 @@ export const LEXICON = [
   },
   {
     "Names languages": "A22_Bakweri ",
-    Classification: "Bantu",
-    Country: "Cameroon",
-    Latitude: 4.25,
-    Longitude: 9.35,
-    "ISO CODE": "bri",
-    __EMPTY: "https://iso639-3.sil.org/code/bri",
-    GLOTTOCODE: "mokp1239",
-    __EMPTY_2: "https://glottolog.org/resource/languoid/id/mokp1239",
+
     animal: {
       word: "nyàmà",
       cognacy: 1,
@@ -38627,14 +37976,7 @@ export const LEXICON = [
   },
   {
     "Names languages": "A24_Duala",
-    Classification: "Bantu",
-    Country: "Cameroon",
-    Latitude: 4.2,
-    Longitude: 9.55,
-    "ISO CODE": "dua",
-    __EMPTY: "https://iso639-3.sil.org/code/dua",
-    GLOTTOCODE: "dual1243",
-    __EMPTY_2: "https://glottolog.org/resource/languoid/id/dual1243",
+
     animal: {
       word: "ńama",
       cognacy: 1,
@@ -39038,14 +38380,7 @@ export const LEXICON = [
   },
   {
     "Names languages": "A27_Malimba",
-    Classification: "Bantu",
-    Country: "Cameroon",
-    Latitude: 3.75,
-    Longitude: 9.6,
-    "ISO CODE": "mzd",
-    __EMPTY: "https://iso639-3.sil.org/code/mzd",
-    GLOTTOCODE: "mali1280",
-    __EMPTY_2: "https://glottolog.org/resource/languoid/id/mali1280",
+
     animal: {
       word: "ɲàmà",
       cognacy: 1,
@@ -39449,14 +38784,7 @@ export const LEXICON = [
   },
   {
     "Names languages": "A31_Bubi",
-    Classification: "Bantu",
-    Country: "Cameroon",
-    Latitude: 3.4,
-    Longitude: 8.65,
-    "ISO CODE": "bvb",
-    __EMPTY: "https://iso639-3.sil.org/code/bvb",
-    GLOTTOCODE: "bube1242",
-    __EMPTY_2: "https://glottolog.org/resource/languoid/id/bube1242",
+
     animal: {
       word: "e-naba",
       cognacy: 1,
@@ -39860,14 +39188,7 @@ export const LEXICON = [
   },
   {
     "Names languages": "A33a_Yasa",
-    Classification: "Bantu",
-    Country: "Cameroon",
-    Latitude: 2.45,
-    Longitude: 9.85,
-    "ISO CODE": "yko",
-    __EMPTY: "https://iso639-3.sil.org/code/yko",
-    GLOTTOCODE: "yasa1242",
-    __EMPTY_2: "https://glottolog.org/resource/languoid/id/yasa1242",
+
     animal: {
       word: "ɲàmà",
       cognacy: 1,
@@ -40271,14 +39592,7 @@ export const LEXICON = [
   },
   {
     "Names languages": "A34_Benga",
-    Classification: "Bantu",
-    Country: "Cameroon",
-    Latitude: 1.25,
-    Longitude: 9.4,
-    "ISO CODE": "bng",
-    __EMPTY: "https://iso639-3.sil.org/code/bng",
-    GLOTTOCODE: "beng1282",
-    __EMPTY_2: "https://glottolog.org/resource/languoid/id/beng1282",
+
     animal: {
       word: "tito",
       cognacy: 7,
@@ -40682,14 +39996,7 @@ export const LEXICON = [
   },
   {
     "Names languages": "A41_Barombi-Kang",
-    Classification: "Bantu",
-    Country: "Cameroon",
-    Latitude: 4.55,
-    Longitude: 9.35,
-    "ISO CODE": "bbi",
-    __EMPTY: "https://iso639-3.sil.org/code/bbi",
-    GLOTTOCODE: "baro1252",
-    __EMPTY_2: "https://glottolog.org/resource/languoid/id/baro1252",
+
     animal: {
       word: "tít",
       cognacy: 7,
@@ -41093,14 +40400,7 @@ export const LEXICON = [
   },
   {
     "Names languages": "A42_Abo",
-    Classification: "Bantu",
-    Country: "Cameroon",
-    Latitude: 4.4,
-    Longitude: 9.6,
-    "ISO CODE": "\tabb",
-    __EMPTY: 'https://iso639-3.sil.org/code/"abb"',
-    GLOTTOCODE: "bank1256",
-    __EMPTY_2: "https://glottolog.org/resource/languoid/id/bank1256",
+
     animal: {
       word: "tít",
       cognacy: 7,
@@ -41504,14 +40804,7 @@ export const LEXICON = [
   },
   {
     "Names languages": "A43a_Basaa",
-    Classification: "Bantu",
-    Country: "Cameroon",
-    Latitude: 5,
-    Longitude: 10.2,
-    "ISO CODE": "bas",
-    __EMPTY: "https://iso639-3.sil.org/code/bas",
-    GLOTTOCODE: "basa1284",
-    __EMPTY_2: "https://glottolog.org/resource/languoid/id/basa1284",
+
     animal: {
       word: "tiri / bitiri",
       cognacy: 7,
@@ -41915,14 +41208,7 @@ export const LEXICON = [
   },
   {
     "Names languages": "A44_Tunen",
-    Classification: "Bantu",
-    Country: "Cameroon",
-    Latitude: 4.7,
-    Longitude: 10.9,
-    "ISO CODE": "tvu",
-    __EMPTY: "https://iso639-3.sil.org/code/tvu",
-    GLOTTOCODE: "tune1261",
-    __EMPTY_2: "https://glottolog.org/resource/languoid/id/tune1261",
+
     animal: {
       word: "ìluk, bùluk, mènyam, ɛ̀lɛmb",
       cognacy: 8,
@@ -42326,14 +41612,7 @@ export const LEXICON = [
   },
   {
     "Names languages": "A45_Nyokon",
-    Classification: "Bantu",
-    Country: "Cameroon",
-    Latitude: 4.78,
-    Longitude: 10.95,
-    "ISO CODE": "nvo",
-    __EMPTY: "https://iso639-3.sil.org/code/nvo",
-    GLOTTOCODE: "nyok1243",
-    __EMPTY_2: "https://glottolog.org/resource/languoid/id/nyok1243",
+
     animal: {
       word: "pù-nùk/mə̀-",
       cognacy: 8,
@@ -42736,14 +42015,7 @@ export const LEXICON = [
   },
   {
     "Names languages": "A46_Nomaande",
-    Classification: "Bantu",
-    Country: "Cameroon",
-    Latitude: 4.62,
-    Longitude: 11.06,
-    "ISO CODE": "lem",
-    __EMPTY: "https://iso639-3.sil.org/code/lem",
-    GLOTTOCODE: "noma1260",
-    __EMPTY_2: "https://glottolog.org/resource/languoid/id/noma1260",
+
     animal: {
       word: "ɛnyama",
       cognacy: 1,
@@ -43147,14 +42419,7 @@ export const LEXICON = [
   },
   {
     "Names languages": "A462_Yambeta",
-    Classification: "Bantu",
-    Country: "Cameroon",
-    Latitude: 4.74,
-    Longitude: 11.03,
-    "ISO CODE": "yat",
-    __EMPTY: "https://iso639-3.sil.org/code/yat",
-    GLOTTOCODE: "yamb1252",
-    __EMPTY_2: "https://glottolog.org/resource/languoid/id/yamb1252",
+
     animal: {
       word: "kì≠líŋ",
       cognacy: 9,
@@ -43558,14 +42823,7 @@ export const LEXICON = [
   },
   {
     "Names languages": "A51_Bafia_maja",
-    Classification: "Bantu",
-    Country: "Cameroon",
-    Latitude: 4.83,
-    Longitude: 11.17,
-    "ISO CODE": "lfa",
-    __EMPTY: "https://iso639-3.sil.org/code/lfa",
-    GLOTTOCODE: "lefa1242",
-    __EMPTY_2: "https://glottolog.org/resource/languoid/id/lefa1242",
+
     animal: {
       word: "ɓyɛ́̄y",
       cognacy: 10,
@@ -43969,14 +43227,7 @@ export const LEXICON = [
   },
   {
     "Names languages": "A53_Bafia_rikpa",
-    Classification: "Bantu",
-    Country: "Cameroon",
-    Latitude: 5,
-    Longitude: 11.15,
-    "ISO CODE": "ksf",
-    __EMPTY: "https://iso639-3.sil.org/code/ksf",
-    GLOTTOCODE: "bafi1243",
-    __EMPTY_2: "https://glottolog.org/resource/languoid/id/bafi1243",
+
     animal: {
       word: "ɓyɛ́n ou kɨ̀-séé",
       cognacy: 10,
@@ -44380,14 +43631,7 @@ export const LEXICON = [
   },
   {
     "Names languages": "A601_Tuki",
-    Classification: "Bantu",
-    Country: "Cameroon",
-    Latitude: 4.5,
-    Longitude: 11.4,
-    "ISO CODE": "bag",
-    __EMPTY: "https://iso639-3.sil.org/code/bag",
-    GLOTTOCODE: "tuki1240",
-    __EMPTY_2: "https://glottolog.org/resource/languoid/id/tuki1240",
+
     animal: {
       word: "nama",
       cognacy: 1,
@@ -44791,14 +44035,7 @@ export const LEXICON = [
   },
   {
     "Names languages": "A622_Nugunu ",
-    Classification: "Bantu",
-    Country: "Cameroon",
-    Latitude: 4.6,
-    Longitude: 11.3,
-    "ISO CODE": "yas",
-    __EMPTY: "https://iso639-3.sil.org/code/yas",
-    GLOTTOCODE: "nugu1242",
-    __EMPTY_2: "https://glottolog.org/resource/languoid/id/nugu1242",
+
     animal: {
       word: "n-nyama",
       cognacy: 1,
@@ -45202,14 +44439,7 @@ export const LEXICON = [
   },
   {
     "Names languages": "A63_Mangisa",
-    Classification: "Bantu",
-    Country: "Cameroon",
-    Latitude: 4.45,
-    Longitude: 11.45,
-    "ISO CODE": "leo",
-    __EMPTY: "https://iso639-3.sil.org/code/leo",
-    GLOTTOCODE: "leti1245",
-    __EMPTY_2: "https://glottolog.org/resource/languoid/id/leti1245",
+
     animal: {
       word: "tid ou ìyɛmb",
       cognacy: 7,
@@ -45613,14 +44843,7 @@ export const LEXICON = [
   },
   {
     "Names languages": "A71_Eton",
-    Classification: "Bantu",
-    Country: "Cameroon",
-    Latitude: 4.25,
-    Longitude: 11.45,
-    "ISO CODE": "eto",
-    __EMPTY: "https://iso639-3.sil.org/code/eto",
-    GLOTTOCODE: "eton1253",
-    __EMPTY_2: "https://glottolog.org/resource/languoid/id/eton1253",
+
     animal: {
       word: "tíd / ì-yém",
       cognacy: 7,
@@ -46024,14 +45247,7 @@ export const LEXICON = [
   },
   {
     "Names languages": "A72a_Ewondo",
-    Classification: "Bantu",
-    Country: "Cameroon",
-    Latitude: 4.2,
-    Longitude: 12.2,
-    "ISO CODE": "ewo",
-    __EMPTY: "https://iso639-3.sil.org/code/ewo",
-    GLOTTOCODE: "ewon1239",
-    __EMPTY_2: "https://glottolog.org/resource/languoid/id/ewon1239",
+
     animal: {
       word: "tsít",
       cognacy: 7,
@@ -46435,14 +45651,7 @@ export const LEXICON = [
   },
   {
     "Names languages": "A74a_Bulu",
-    Classification: "Bantu",
-    Country: "Cameroon",
-    Latitude: 2.95,
-    Longitude: 10.85,
-    "ISO CODE": "bum",
-    __EMPTY: "https://iso639-3.sil.org/code/bum",
-    GLOTTOCODE: "bulu1251",
-    __EMPTY_2: "https://glottolog.org/resource/languoid/id/bulu1251",
+
     animal: {
       word: "tit",
       cognacy: 7,
@@ -46846,14 +46055,7 @@ export const LEXICON = [
   },
   {
     "Names languages": "A75a_Fang_Bitam",
-    Classification: "Bantu",
-    Country: "Gabon",
-    Latitude: 2.08,
-    Longitude: 11.49,
-    "ISO CODE": "fan",
-    __EMPTY: "https://iso639-3.sil.org/code/fan",
-    GLOTTOCODE: "fang1246",
-    __EMPTY_2: "https://glottolog.org/resource/languoid/id/fang1246",
+
     animal: {
       word: "tsit",
       cognacy: 7,
@@ -47257,14 +46459,7 @@ export const LEXICON = [
   },
   {
     "Names languages": "A81_Kwasio ",
-    Classification: "Bantu",
-    Country: "Cameroon",
-    Latitude: 3.06,
-    Longitude: 10.22,
-    "ISO CODE": "nmg",
-    __EMPTY: "https://iso639-3.sil.org/code/nmg",
-    GLOTTOCODE: "kwas1243",
-    __EMPTY_2: "https://glottolog.org/resource/languoid/id/kwas1243",
+
     animal: {
       word: "tsiɾ, bɔ-",
       cognacy: 7,
@@ -47668,14 +46863,7 @@ export const LEXICON = [
   },
   {
     "Names languages": "A83_Mekaa",
-    Classification: "Bantu",
-    Country: "Cameroon",
-    Latitude: 4.17,
-    Longitude: 12.52,
-    "ISO CODE": "mcp",
-    __EMPTY: "https://iso639-3.sil.org/code/mcp",
-    GLOTTOCODE: "maka1304",
-    __EMPTY_2: "https://glottolog.org/resource/languoid/id/maka1304",
+
     animal: {
       word: "mpawó, me- ou cúdú, o-",
       cognacy: 11,
@@ -48079,14 +47267,7 @@ export const LEXICON = [
   },
   {
     "Names languages": "A85b_Bekwil_Makokou",
-    Classification: "Bantu",
-    Country: "Gabon",
-    Latitude: 0.56,
-    Longitude: 12.83,
-    "ISO CODE": "bkw",
-    __EMPTY: "https://iso639-3.sil.org/code/bkw",
-    GLOTTOCODE: "bekw1242",
-    __EMPTY_2: "https://glottolog.org/resource/languoid/id/bekw1242",
+
     animal: {
       word: "tʰit",
       cognacy: 7,
@@ -48490,14 +47671,7 @@ export const LEXICON = [
   },
   {
     "Names languages": "A86c_Mpiemo",
-    Classification: "Bantu",
-    Country: "Cameroon",
-    Latitude: 3.41,
-    Longitude: 15.27,
-    "ISO CODE": "mcx",
-    __EMPTY: "https://iso639-3.sil.org/code/mcx",
-    GLOTTOCODE: "mpie1238",
-    __EMPTY_2: "https://glottolog.org/resource/languoid/id/mpie1238",
+
     animal: {
       word: "tīrī",
       cognacy: 7,
@@ -48901,14 +48075,7 @@ export const LEXICON = [
   },
   {
     "Names languages": "A91_Kwakum",
-    Classification: "Bantu",
-    Country: "Cameroon",
-    Latitude: 4.8,
-    Longitude: 13.5,
-    "ISO CODE": "kwu",
-    __EMPTY: "https://iso639-3.sil.org/code/kwu",
-    GLOTTOCODE: "kwak1266",
-    __EMPTY_2: "https://glottolog.org/resource/languoid/id/kwak1266",
+
     animal: {
       word: "bùpà",
       cognacy: 12,
@@ -49312,14 +48479,7 @@ export const LEXICON = [
   },
   {
     "Names languages": "A93_Kako",
-    Classification: "Bantu",
-    Country: "Cameroon",
-    Latitude: 4.71,
-    Longitude: 13.9,
-    "ISO CODE": "kkj",
-    __EMPTY: "https://iso639-3.sil.org/code/kkj",
-    GLOTTOCODE: "kako1242",
-    __EMPTY_2: "https://glottolog.org/resource/languoid/id/kako1242",
+
     animal: {
       word: "nyàmɔ̀ / ɓènyàmɔ̀",
       cognacy: 1,
@@ -49723,14 +48883,7 @@ export const LEXICON = [
   },
   {
     "Names languages": "B11a_Mpongwe",
-    Classification: "Bantu",
-    Country: "Gabon",
-    Latitude: -1.2,
-    Longitude: 9.55,
-    "ISO CODE": "x",
-    __EMPTY: "x",
-    GLOTTOCODE: "mpon1255",
-    __EMPTY_2: "https://glottolog.org/resource/languoid/id/mpon1255",
+
     animal: {
       word: "ɲaw̃a",
       cognacy: 1,
@@ -50134,14 +49287,7 @@ export const LEXICON = [
   },
   {
     "Names languages": "B11c_Galwa",
-    Classification: "Bantu",
-    Country: "Gabon",
-    Latitude: -0.7,
-    Longitude: 10.24,
-    "ISO CODE": "x",
-    __EMPTY: "x",
-    GLOTTOCODE: "galw1238",
-    __EMPTY_2: "https://glottolog.org/resource/languoid/id/galw1238",
+
     animal: {
       word: "ɲama",
       cognacy: 1,
@@ -50545,14 +49691,7 @@ export const LEXICON = [
   },
   {
     "Names languages": "B11d_Dyumba ",
-    Classification: "Bantu",
-    Country: "Gabon",
-    Latitude: -0.59,
-    Longitude: 10.07,
-    "ISO CODE": "x",
-    __EMPTY: "x",
-    GLOTTOCODE: "ajum1239",
-    __EMPTY_2: "https://glottolog.org/resource/languoid/id/ajum1239",
+
     animal: {
       word: "ɲàːmà (animal), èwɛ́ːɾɛ́ z íɲáːmá (viande)",
       cognacy: 1,
@@ -50956,14 +50095,7 @@ export const LEXICON = [
   },
   {
     "Names languages": "B11F_Enenga",
-    Classification: "Bantu",
-    Country: "Gabon",
-    Latitude: -0.7,
-    Longitude: 10.29,
-    "ISO CODE": "x",
-    __EMPTY: "x",
-    GLOTTOCODE: "nen1239",
-    __EMPTY_2: "https://glottolog.org/resource/languoid/id/nen1239",
+
     animal: {
       word: "ɲama",
       cognacy: 1,
@@ -51367,14 +50499,7 @@ export const LEXICON = [
   },
   {
     "Names languages": "B31_Tsogo",
-    Classification: "Bantu",
-    Country: "Gabon",
-    Latitude: -1.5,
-    Longitude: 11.3,
-    "ISO CODE": "tsv",
-    __EMPTY: "https://iso639-3.sil.org/code/tsv",
-    GLOTTOCODE: "tsog1243",
-    __EMPTY_2: "https://glottolog.org/resource/languoid/id/tsog1243",
+
     animal: {
       word: "ɲama",
       cognacy: 1,
@@ -51778,14 +50903,7 @@ export const LEXICON = [
   },
   {
     "Names languages": "B32_Kande",
-    Classification: "Bantu",
-    Country: "Gabon",
-    Latitude: -0.01,
-    Longitude: 11.75,
-    "ISO CODE": "kbs",
-    __EMPTY: "https://iso639-3.sil.org/code/kbs",
-    GLOTTOCODE: "kand1300",
-    __EMPTY_2: "https://glottolog.org/resource/languoid/id/kand1300",
+
     animal: {
       word: "eɲama",
       cognacy: 1,
@@ -52189,14 +51307,7 @@ export const LEXICON = [
   },
   {
     "Names languages": "B301_Viya",
-    Classification: "Bantu",
-    Country: "Gabon",
-    Latitude: -1.21,
-    Longitude: 10.65,
-    "ISO CODE": "gev",
-    __EMPTY: "https://iso639-3.sil.org/code/gev",
-    GLOTTOCODE: "eviy1235",
-    __EMPTY_2: "https://glottolog.org/resource/languoid/id/eviy1235",
+
     animal: {
       word: "ɣebo",
       cognacy: 13,
@@ -52600,14 +51711,7 @@ export const LEXICON = [
   },
   {
     "Names languages": "B302_Himba",
-    Classification: "Bantu",
-    Country: "Gabon",
-    Latitude: -1.48,
-    Longitude: 11.54,
-    "ISO CODE": "sbw",
-    __EMPTY: "https://iso639-3.sil.org/code/sbw",
-    GLOTTOCODE: "simb1254",
-    __EMPTY_2: "https://glottolog.org/resource/languoid/id/simb1254",
+
     animal: {
       word: "eɲama",
       cognacy: 1,
@@ -53011,14 +52115,7 @@ export const LEXICON = [
   },
   {
     "Names languages": "B304_Pinzi",
-    Classification: "Bantu",
-    Country: "Gabon",
-    Latitude: -1.93,
-    Longitude: 11.22,
-    "ISO CODE": "pic",
-    __EMPTY: "https://iso639-3.sil.org/code/pic",
-    GLOTTOCODE: "pinj1243",
-    __EMPTY_2: "https://glottolog.org/resource/languoid/id/pinj1243",
+
     animal: {
       word: "eɲama",
       cognacy: 1,
@@ -53422,14 +52519,7 @@ export const LEXICON = [
   },
   {
     "Names languages": "B305_Vove",
-    Classification: "Bantu",
-    Country: "Gabon",
-    Latitude: -1.1,
-    Longitude: 12.3,
-    "ISO CODE": "buw",
-    __EMPTY: "https://iso639-3.sil.org/code/buw",
-    GLOTTOCODE: "bubi1250",
-    __EMPTY_2: "https://glottolog.org/resource/languoid/id/bubi1250",
+
     animal: {
       word: "ɲama",
       cognacy: 1,
@@ -53833,14 +52923,7 @@ export const LEXICON = [
   },
   {
     "Names languages": "B21_Seki ",
-    Classification: "Bantu",
-    Country: "Gabon",
-    Latitude: 0.95,
-    Longitude: 9.6,
-    "ISO CODE": "syi",
-    __EMPTY: "https://iso639-3.sil.org/code/syi",
-    GLOTTOCODE: "seki1238",
-    __EMPTY_2: "https://glottolog.org/resource/languoid/id/seki1238",
+
     animal: {
       word: "sí:ŋì/mìsí:ŋì ou sòónú (Y.B.)",
       cognacy: 14,
@@ -54244,14 +53327,7 @@ export const LEXICON = [
   },
   {
     "Names languages": "B22a_Kele",
-    Classification: "Bantu",
-    Country: "Gabon",
-    Latitude: -0.8,
-    Longitude: 10.35,
-    "ISO CODE": "keb",
-    __EMPTY: "https://iso639-3.sil.org/code/keb",
-    GLOTTOCODE: "kele1257",
-    __EMPTY_2: "https://glottolog.org/resource/languoid/id/kele1257",
+
     animal: {
       word: "tʃitʃi",
       cognacy: 7,
@@ -54655,14 +53731,7 @@ export const LEXICON = [
   },
   {
     "Names languages": "B22b_Ngom ",
-    Classification: "Bantu",
-    Country: "Gabon",
-    Latitude: 1.3,
-    Longitude: 14.15,
-    "ISO CODE": "nra",
-    __EMPTY: "https://iso639-3.sil.org/code/nra",
-    GLOTTOCODE: "ngom1270",
-    __EMPTY_2: "https://glottolog.org/resource/languoid/id/ngom1270",
+
     animal: {
       word: "tutu/batutu",
       cognacy: 7,
@@ -55066,14 +54135,7 @@ export const LEXICON = [
   },
   {
     "Names languages": "B22E_Mwesa",
-    Classification: "Bantu",
-    Country: "Gabon",
-    Latitude: 1.2,
-    Longitude: 13.3,
-    "ISO CODE": "x",
-    __EMPTY: "x",
-    GLOTTOCODE: "mwes1234",
-    __EMPTY_2: "https://glottolog.org/resource/languoid/id/mwes1234",
+
     animal: {
       word: "titu/batitu",
       cognacy: 7,
@@ -55477,14 +54539,7 @@ export const LEXICON = [
   },
   {
     "Names languages": "B23_Mbangwe",
-    Classification: "Bantu",
-    Country: "Gabon",
-    Latitude: -2.1,
-    Longitude: 13.65,
-    "ISO CODE": "zmn",
-    __EMPTY: "https://iso639-3.sil.org/code/zmn",
-    GLOTTOCODE: "mban1268",
-    __EMPTY_2: "https://glottolog.org/resource/languoid/id/mban1268",
+
     animal: {
       word: "tsitsi/batsitsi",
       cognacy: 7,
@@ -55888,14 +54943,7 @@ export const LEXICON = [
   },
   {
     "Names languages": "B24_Wumbvu",
-    Classification: "Bantu",
-    Country: "Gabon",
-    Latitude: -2.3,
-    Longitude: 12.25,
-    "ISO CODE": "wum",
-    __EMPTY: "https://iso639-3.sil.org/code/wum",
-    GLOTTOCODE: "wumb1242",
-    __EMPTY_2: "https://glottolog.org/resource/languoid/id/wumb1242",
+
     animal: {
       word: "ɲama/bɛɲama",
       cognacy: 1,
@@ -56299,14 +55347,7 @@ export const LEXICON = [
   },
   {
     "Names languages": "B25_Kota",
-    Classification: "Bantu",
-    Country: "Gabon",
-    Latitude: -0.01,
-    Longitude: 12.8,
-    "ISO CODE": "koq",
-    __EMPTY: "https://iso639-3.sil.org/code/koq",
-    GLOTTOCODE: "kota1274",
-    __EMPTY_2: "https://glottolog.org/resource/languoid/id/kota1274",
+
     animal: {
       word: "sito/basito ~ títò (Y.B.)",
       cognacy: 7,
@@ -56710,14 +55751,7 @@ export const LEXICON = [
   },
   {
     "Names languages": "B251_Shake",
-    Classification: "Bantu",
-    Country: "Gabon",
-    Latitude: 0.25,
-    Longitude: 11.75,
-    "ISO CODE": "sak",
-    __EMPTY: "https://iso639-3.sil.org/code/sak",
-    GLOTTOCODE: "sake1247",
-    __EMPTY_2: "https://glottolog.org/resource/languoid/id/sake1247",
+
     animal: {
       word: "tʃitʃi/bɛtʃitʃi",
       cognacy: 7,
@@ -57121,14 +56155,7 @@ export const LEXICON = [
   },
   {
     "Names languages": "B252_Mahongwe",
-    Classification: "Bantu",
-    Country: "Gabon",
-    Latitude: 0.65,
-    Longitude: 14,
-    "ISO CODE": "mhb",
-    __EMPTY: "https://iso639-3.sil.org/code/mhb",
-    GLOTTOCODE: "maho1248",
-    __EMPTY_2: "https://glottolog.org/resource/languoid/id/maho1248",
+
     animal: {
       word: "tʃitu/batʃitu",
       cognacy: 7,
@@ -57532,14 +56559,7 @@ export const LEXICON = [
   },
   {
     "Names languages": "B201_Ndasa",
-    Classification: "Bantu",
-    Country: "Gabon",
-    Latitude: -3,
-    Longitude: 13.6,
-    "ISO CODE": "nda",
-    __EMPTY: "https://iso639-3.sil.org/code/nda",
-    GLOTTOCODE: "ndas1238",
-    __EMPTY_2: "https://glottolog.org/resource/languoid/id/ndas1238",
+
     animal: {
       word: "ɲama/baɲama",
       cognacy: 1,
@@ -57943,14 +56963,7 @@ export const LEXICON = [
   },
   {
     "Names languages": "B202_Sigu",
-    Classification: "Bantu",
-    Country: "Gabon",
-    Latitude: -0.7,
-    Longitude: 12.55,
-    "ISO CODE": "sxe",
-    __EMPTY: "https://iso639-3.sil.org/code/sxe",
-    GLOTTOCODE: "sigh1238",
-    __EMPTY_2: "https://glottolog.org/resource/languoid/id/sigh1238",
+
     animal: {
       word: "ɲá:mà/báɲá:mà",
       cognacy: 1,
@@ -58354,14 +57367,7 @@ export const LEXICON = [
   },
   {
     "Names languages": "B203_Samaye",
-    Classification: "Bantu",
-    Country: "Gabon",
-    Latitude: 0.96,
-    Longitude: 13.7,
-    "ISO CODE": "syx",
-    __EMPTY: "https://iso639-3.sil.org/code/syx",
-    GLOTTOCODE: "osam1235",
-    __EMPTY_2: "https://glottolog.org/resource/languoid/id/osam1235",
+
     animal: {
       word: "ɲama/baɲama",
       cognacy: 1,
@@ -58765,14 +57771,7 @@ export const LEXICON = [
   },
   {
     "Names languages": "B204_Ndambomo_Li",
-    Classification: "Bantu",
-    Country: "Gabon",
-    Latitude: 0.68,
-    Longitude: 12.65,
-    "ISO CODE": "nxo",
-    __EMPTY: "https://iso639-3.sil.org/code/nxo",
-    GLOTTOCODE: "ndam1254",
-    __EMPTY_2: "https://glottolog.org/resource/languoid/id/ndam1254",
+
     animal: {
       word: "tʃiitʃi/batʃiitʃi",
       cognacy: 7,

@@ -3,7 +3,7 @@ import { useLocation, useParams } from "react-router-dom";
 import { Typography } from "antd";
 import { DATA } from "../map/data";
 import { CircleMarker, MapContainer, TileLayer } from "react-leaflet";
-import { CLASIFICATION_COLORS } from "../../components/map/utils";
+import { CLASSIFICATION_COLORS } from "../../components/map/utils";
 
 const getObject = (state, name) => {
   if (state?.object) {
@@ -47,7 +47,7 @@ const LanguagePage = () => {
         <CircleMarker
           center={location}
           key={name}
-          pathOptions={{ color: CLASIFICATION_COLORS[Classification] }}
+          pathOptions={{ color: CLASSIFICATION_COLORS[Classification] }}
           radius="5"
         ></CircleMarker>
       </MapContainer>

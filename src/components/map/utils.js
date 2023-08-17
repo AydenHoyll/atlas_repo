@@ -1,4 +1,4 @@
-export const CLASIFICATION_COLORS = {
+export const CLASSIFICATION_COLORS = {
   Ekoid: "#666666",
   Tivoid: "#800080",
   Central_Tivoid: "#800080",

@@ -8,7 +8,7 @@ import {
   Popup,
 } from "react-leaflet";
 import { DATA } from "../../pages/map/data";
-import { CLASIFICATION_COLORS } from "./utils";
+import { CLASSIFICATION_COLORS } from "./utils";
 
 const UIMap = ({
   refMap,
@@ -23,10 +23,10 @@ const UIMap = ({
       dataMarkers.map((object, index) => ({
         position: [object.Latitude, object.Longitude],
         name: object.Name,
-        color: CLASIFICATION_COLORS[object.Classification] || "#000000",
+        color: CLASSIFICATION_COLORS[object.Classification] || "#000000",
         classification: object.Classification,
       })),
-    [dataMarkers, CLASIFICATION_COLORS]
+    [dataMarkers]
   );
 
   return (

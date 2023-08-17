@@ -52,6 +52,9 @@ const ListComponent = ({ data, name, passData }) => {
 
   return (
     <div className="w-1/2 mr-2 flex flex-col m-0 lg:text-lg md:text-sm min-w-fit ">
+      <Typography.Text strong={true} className="lg:text-xl mb-5 md:text-sm">
+        Select {name} for custom table
+      </Typography.Text>
       <Input
         allowClear
         style={{
@@ -72,9 +75,7 @@ const ListComponent = ({ data, name, passData }) => {
         </Button>
         <Button onClick={handleSelectAll}>Select all</Button>
       </div>
-      <Typography.Text strong={true} className="lg:text-lg md:text-sm">
-        Select {name} for custom table
-      </Typography.Text>
+
       <div>
         Checked {name}: {checkedListValues.join(", ")}
       </div>
