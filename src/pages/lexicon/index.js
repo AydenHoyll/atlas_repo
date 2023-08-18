@@ -38,7 +38,7 @@ const Lexicon = () => {
 
   return (
     <>
-      <div className="inline-flex flex-wrap gap-5">
+      <div className="inline-flex flex-wrap gap-5 items-baseline">
         {alphabet.map((letter) => (
           <button
             className="mb-2 bg-gray-300 hover:bg-gray-400 text-gray-800 font-bold py-2 px-4 rounded inline-flex items-center"

@@ -43,7 +43,7 @@ const LanguagePage = () => {
         zoom={4}
         bounds={location}
         zoomControl={false}
-        style={{ width: 300 }}
+        className="sm:w-80"
       >
         <TileLayer
           url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"

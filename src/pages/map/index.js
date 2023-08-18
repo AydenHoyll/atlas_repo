@@ -52,7 +52,10 @@ export const MapPage = () => {
     ),
     key: String(ix + 1),
   }));
-
+  // width: 100%;
+  // height: 35vh;
+  // border-radius: 5px;
+  // margin-bottom: 5px;
   return (
     <>
       <UIMap refMap={refMap} popupRef={popupRef} />
