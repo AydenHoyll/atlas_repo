@@ -32,11 +32,12 @@ export const MapPage = () => {
   const tableData = DATA.map((object, ix) => ({
     ...object,
     Name: (
-      <div
-        className="flex justify-between items-center"
-        data-value={object.Name}
-      >
-        <Link to={`/language/${object.Name}`} state={{ test: 123, object }}>
+      <div className="flex justify-between items-center">
+        <Link
+          className=" text-blue-600"
+          to={`/language/${object.Name}`}
+          state={{ test: 123, object }}
+        >
           {object.Name}
         </Link>
         <Tooltip title="Locate language on the map">
