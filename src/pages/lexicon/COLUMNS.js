@@ -4,7 +4,8 @@ export const LEX_COL = (keys, color, number) => {
   const words = keys.map((word) => ({
     title: word,
     dataIndex: word,
-    widths: "auto",
+    // fixes the table header breakout when only "?" value in a column
+    ellipsis: true,
     render: (text) => (
       <span className={color ? distinctiveColors[text.cognacy] : ""}>
         {text.word} {number && text.cognacy}

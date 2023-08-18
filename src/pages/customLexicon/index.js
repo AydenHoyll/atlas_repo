@@ -13,7 +13,7 @@ const NewFeature = () => {
   );
 
   const wordData = useMemo(
-    () => Object.keys(LEXICON[0]).slice(9, Object.keys(LEXICON[0]).length),
+    () => Object.keys(LEXICON[0]).slice(1, Object.keys(LEXICON[0]).length),
     []
   );
 
