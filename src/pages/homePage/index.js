@@ -1,6 +1,7 @@
 import React from "react";
 import { Space, Typography } from "antd";
 import Cards from "../../components/card";
+import { CARDS_DATA } from "./utils";
 
 const HomePage = () => {
   return (
@@ -35,13 +36,16 @@ const HomePage = () => {
           May 2025.
         </Typography.Paragraph>
         <Typography.Title level={3}>People</Typography.Title>
-        <div className="inline-flex gap-5 lg:max-w-5xl m-auto md:max-3xl sm:flex-wrap lg:flex-nowrap justify-center">
-          <Cards></Cards>
-          <Cards></Cards>
-          <Cards></Cards>
-          <Cards></Cards>
-          <Cards></Cards>
-          <Cards></Cards>
+        {/*!!!fix layout break when on mobile device*/}
+        <div className="inline-flex gap-5 flex-1 md:flex-wrap justify-center">
+          {CARDS_DATA.map((person) => (
+            <Cards
+              title={person.title}
+              name={person.name}
+              website={person.website}
+              avatar={person.avatar}
+            />
+          ))}
         </div>
       </Space>
     </>

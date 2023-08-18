@@ -13,7 +13,7 @@ const Lexicon = () => {
   const columnWords = useMemo(() => {
     const x = {};
 
-    Object.entries(LEXICON[0]).forEach(([key, value], index) => {
+    Object.entries(LEXICON[0]).forEach(([key, value]) => {
       const firstLetter = key[0];
 
       if (alphabet.includes(firstLetter)) {
