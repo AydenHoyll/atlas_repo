@@ -32,7 +32,10 @@ export const MapPage = () => {
   const tableData = DATA.map((object, ix) => ({
     ...object,
     Name: (
-      <div className="flex justify-between items-center">
+      <div
+        className="flex justify-between items-center"
+        data-value={object.Name}
+      >
         <Link
           className=" text-blue-600"
           to={`/language/${object.Name}`}
