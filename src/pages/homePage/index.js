@@ -10,7 +10,7 @@ const HomePage = () => {
         <Typography.Title level={2} className="text-slate-900">
           CAMOID Interactive Atlas
         </Typography.Title>
-        <Typography.Paragraph className=" lg:max-w-5xl md:max-3xl  md:text-xl text-slate-800 text-justify">
+        <Typography.Paragraph className="lg:max-w-5xl md:text-xl text-slate-800 text-justify">
           Welcome to the CAMOID website! This database focuses on the study of
           Bantoid and Bantu languages spoken in southern Cameroon, with a focus
           on underdocumented and underdescribed languages. The database contains
@@ -24,7 +24,7 @@ const HomePage = () => {
         <Typography.Title level={3} className="text-slate-900">
           NSF Project
         </Typography.Title>
-        <Typography.Paragraph className="max-w-5xl md:max-3xl md:text-xl text-slate-800 text-justify">
+        <Typography.Paragraph className="lg:max-w-5xl md:text-xl text-slate-800 text-justify">
           The primary goal of the project is to investigate the intricate
           relationships observed between Bantoid and Bantu languages (Bantu
           split from Bantoid languages 5,000 years ago) by compiling the first
@@ -37,7 +37,7 @@ const HomePage = () => {
         </Typography.Paragraph>
         <Typography.Title level={3}>People</Typography.Title>
         {/*!!!fix layout break when on mobile device*/}
-        <div className="inline-flex gap-5 flex-1 md:flex-wrap justify-center">
+        <div className="inline-flex flex-wrap justify-center">
           {CARDS_DATA.map((person) => (
             <Cards
               title={person.title}

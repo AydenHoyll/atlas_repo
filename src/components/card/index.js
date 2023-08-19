@@ -11,6 +11,7 @@ const Cards = ({ avatar = "", website = "", name = "", title = "" }) => {
           display: "flex",
           flexDirection: "column",
           alignItems: "center",
+          marginRight: 5,
         }}
       >
         <Avatar

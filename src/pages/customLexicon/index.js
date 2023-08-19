@@ -5,7 +5,7 @@ import { Checkbox, Table } from "antd";
 import { options } from "../lexicon/utils";
 import { LEX_COL } from "../lexicon/COLUMNS";
 
-const NewFeature = () => {
+const CustomLexicon = () => {
   const [data, setData] = useState({});
   const [isClicked, setIsClicked] = useState(false);
   const [checked, setChecked] = useState(
@@ -83,4 +83,4 @@ const NewFeature = () => {
     </>
   );
 };
-export default NewFeature;
+export default CustomLexicon;

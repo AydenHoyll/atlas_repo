@@ -58,7 +58,7 @@ const ListComponent = ({ data, name, passData }) => {
       <Input
         allowClear
         style={{
-          width: "25vw",
+          width: "30%",
           minWidth: 200,
           alignSelf: "start",
           marginBottom: 5,

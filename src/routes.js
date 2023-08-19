@@ -2,7 +2,8 @@ import { MapPage } from "./pages/map";
 import LanguagePage from "./pages/language";
 import HomePage from "./pages/homePage";
 import Lexicon from "./pages/lexicon";
-import NewFeature from "./pages/customLexicon";
+import CustomLexicon from "./pages/customLexicon";
+import Features from "./pages/features";
 
 export const ROUTES = [
   {
@@ -22,9 +23,10 @@ export const ROUTES = [
     path: "/",
     element: <HomePage />,
   },
+  { path: "/generate", element: <CustomLexicon /> },
+  { path: "/features", element: <Features /> },
   {
     path: "*",
-    element: <div>Page is not found!</div>,
+    element: <div className="text-xl">Page is not found!</div>,
   },
-  { path: "/new", element: <NewFeature /> },
 ];
