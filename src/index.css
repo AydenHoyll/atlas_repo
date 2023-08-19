@@ -19,9 +19,7 @@ code {
 :where(.css-dev-only-do-not-override-12jzuas).ant-layout-header {
   padding: 30px !important;
 }
-:where(.css-dev-only-do-not-override-12jzuas).ant-layout-footer {
-  background: rgb(0, 21, 41);
-}
+
 .leaflet-container {
   width: 100%;
   height: 35vh;

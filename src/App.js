@@ -18,7 +18,7 @@ const App = () => {
           ))}
         </Routes>
       </Content>
-      <Footer />
+      <Footer style={{ background: "rgb(0, 21, 41)" }} />
     </Layout>
   );
 };
