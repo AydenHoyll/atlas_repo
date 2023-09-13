@@ -81,7 +81,7 @@ const ListComponent = ({ data, name, passData }) => {
       </div>
       <ul style={{ columnCount: 2, overflow: "auto" }}>
         {filteredData.map((item) => (
-          <li className="" key={item.key}>
+          <li key={item.key}>
             <Checkbox
               className="mr-2"
               checked={item.checked}

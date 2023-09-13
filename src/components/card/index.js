@@ -6,12 +6,11 @@ const Cards = ({ avatar = "", website = "", name = "", title = "" }) => {
   return (
     <>
       <Card
-        bordered={false}
+        bordered={true}
         bodyStyle={{
           display: "flex",
           flexDirection: "column",
           alignItems: "center",
-          marginRight: 5,
         }}
       >
         <Avatar

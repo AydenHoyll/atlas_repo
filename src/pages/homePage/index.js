@@ -37,7 +37,7 @@ const HomePage = () => {
         </Typography.Paragraph>
         <Typography.Title level={3}>People</Typography.Title>
         {/*!!!fix layout break when on mobile device*/}
-        <div className="inline-flex flex-wrap justify-center">
+        <div className="inline-flex flex-wrap justify-center gap-3">
           {CARDS_DATA.map((person) => (
             <Cards
               title={person.title}
