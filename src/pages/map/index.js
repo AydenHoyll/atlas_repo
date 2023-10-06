@@ -14,7 +14,7 @@ export const MapPage = () => {
     const { current = {} } = refMap;
 
     const isAnimationEnabled = refMap.current.getZoom() > 8;
-    current.flyTo(coords, 10, {
+    current.flyTo(coords, 9, {
       duration: 2,
       animate: isAnimationEnabled,
     });
